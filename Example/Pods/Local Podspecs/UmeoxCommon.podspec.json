@@ -1,9 +1,9 @@
 {
   "name": "UmeoxCommon",
-  "version": "0.1.0",
-  "summary": "A short description of UmeoxCommon.",
+  "version": "0.0.1",
+  "summary": "Umeox 通用类.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/394980560@qq.com/UmeoxCommon",
+  "homepage": "https://github.com/XiaoWeiChung/UmeoxCommon",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,27 @@
     "394980560@qq.com": "chenxiaowei@wherecom.com"
   },
   "source": {
-    "git": "https://github.com/394980560@qq.com/UmeoxCommon.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/XiaoWeiChung/UmeoxCommon.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "UmeoxCommon/Classes/**/*"
+  "source_files": "UmeoxCommon/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "CoreData",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "RESideMenu": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
 }

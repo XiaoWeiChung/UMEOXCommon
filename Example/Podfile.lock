@@ -1,15 +1,30 @@
 PODS:
-  - UmeoxCommon (0.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - RESideMenu (4.0.7)
+  - UmeoxCommon (0.0.1):
+    - Masonry
+    - MBProgressHUD
+    - RESideMenu
 
 DEPENDENCIES:
   - UmeoxCommon (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - RESideMenu
 
 EXTERNAL SOURCES:
   UmeoxCommon:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UmeoxCommon: e26262d8c61b27829cc752f1b72c4e018a8aefd5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  UmeoxCommon: 7c3df06d414e5394d94aeaaeba0dd05328e4cb4c
 
 PODFILE CHECKSUM: c382e217ae1f3b6e8bd253a6e9aea791ecaeac0f
 
