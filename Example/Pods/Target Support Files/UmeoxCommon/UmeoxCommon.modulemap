@@ -1,0 +1,6 @@
+framework module UmeoxCommon {
+  umbrella header "UmeoxCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

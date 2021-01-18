@@ -1,0 +1,22 @@
+{
+  "name": "UmeoxCommon",
+  "version": "0.1.0",
+  "summary": "A short description of UmeoxCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/394980560@qq.com/UmeoxCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "394980560@qq.com": "chenxiaowei@wherecom.com"
+  },
+  "source": {
+    "git": "https://github.com/394980560@qq.com/UmeoxCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UmeoxCommon/Classes/**/*"
+}

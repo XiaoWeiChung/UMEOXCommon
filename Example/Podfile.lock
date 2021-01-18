@@ -1,0 +1,16 @@
+PODS:
+  - UmeoxCommon (0.1.0)
+
+DEPENDENCIES:
+  - UmeoxCommon (from `../`)
+
+EXTERNAL SOURCES:
+  UmeoxCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UmeoxCommon: e26262d8c61b27829cc752f1b72c4e018a8aefd5
+
+PODFILE CHECKSUM: c382e217ae1f3b6e8bd253a6e9aea791ecaeac0f
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,1888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0035FDDF17BCE1652FFD5DD3A9D58EDB /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7864A99CAE4D0C85D98BD0750C4E1E8C /* GMSCore.strings */; };
+		008B3F3E2F0F77434F2513C85F49A842 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 825482819081FA2D04CB52F6A7089F4D /* GMSCore.strings */; };
+		00A8106303D7CA07153C274421C5CC9C /* bubble_left@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1D8304C2D1F280403AB8DA6F6D22B1E1 /* bubble_left@3x.png */; };
+		0125075E26BDA6F772028D2A7E2905A5 /* bubble_right@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5C04D204ED433BAF3A393DB312F84C0F /* bubble_right@2x.png */; };
+		0157E9059F17964E516F8F7DA4CFAA79 /* road_8-2.png in Sources */ = {isa = PBXBuildFile; fileRef = 558DE8C8F3EDAF9DF1A8DBA6402E4D29 /* road_8-2.png */; };
+		04CF1447FF35AD480DBA1DBCC30F85B7 /* PlausibleDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A68B669A5D44C8BDAE7B44701F8FEE /* PlausibleDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0532DB4E867E06742CF2655895B89192 /* myView.nib in Sources */ = {isa = PBXBuildFile; fileRef = 713D3123893006F81AF6BACE85CABB86 /* myView.nib */; };
+		071B51D0101547447F4FE3F427E86653 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F74A65DA88EE723BE9257ABAB08DEB8 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E9708E91C73559B7550E826B93C2C2 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = FBBB2A78F0CD5B69930CFD3522027FDB /* GMSCore.strings */; };
+		07FFCEFCB937C0A997415A2ADD1F794E /* PLDatabaseMigrationTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 092FD04C41992CB2ECB2EDC1B8232E52 /* PLDatabaseMigrationTransactionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0805165CDA22345E5FB8154263765D8F /* WRoundButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BF54B618DB9B29A3A60084C80919337D /* WRoundButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09FC0470A00F271FBFC05852D69AE6F0 /* road_4-1.png in Sources */ = {isa = PBXBuildFile; fileRef = 01FA2AF9A2F6660780A42F2B72D7BB0E /* road_4-1.png */; };
+		0A3C588772B6A49E81C03D2B423369A5 /* button_compass@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = EF4B7B899F1D26F2A3C9FEDA5B51A418 /* button_compass@2x.png */; };
+		0C195092337DDDA48A50EF78E451828A /* WPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9164A97CC97F2F979D9DD69063920C4A /* WPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D744BDDD881EE24D73ECB79539D06E6 /* ic_covid_medical_waypoint_alert_night_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 36120528087C6BA1B11538164136D6FF /* ic_covid_medical_waypoint_alert_night_32pt.png */; };
+		0DA9D65A77993E51FF0EF2E677ACD2EE /* road_16-4.png in Sources */ = {isa = PBXBuildFile; fileRef = 37090CA30B066AB96C0576A31E29DA13 /* road_16-4.png */; };
+		0E6BC1F7C3F555F0DB796AEB53EA1527 /* ProgressDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = B72575A1A6D650E5078E007277E5A8C6 /* ProgressDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA31236B23C6AC5FC53532C4966B65D /* ic_compass_needle_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3EA0CB3EEFE7D9E3AA9C4FB5615875FF /* ic_compass_needle_32pt@3x.png */; };
+		0EBAB80AE079EDCF6B66D9344C29657F /* WRelationAvatar.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD2CBC6435ADC26769460BA26B91F8F /* WRelationAvatar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F41BB6D8C16E958744D2E3FA760E569 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = DE42B0C2FCE312C81A19E40225838608 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFF07BC8F2090E1C2FB404922198EFF /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 003F9FC5D5911B6CBC534576D0463169 /* GMSCore.strings */; };
+		123588DF667041A437FCB17CE5D8A0AE /* KMoveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF26603844C6D5CBDD4912DE2094FEF /* KMoveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13157879639428FC87C0577D0C9EE9D6 /* PositionExtract.h in Headers */ = {isa = PBXBuildFile; fileRef = F39514486902183E44F55D4D786B7997 /* PositionExtract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13F27BEA0941776330DA8CD9CA004B25 /* UIDatePickerAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD2443123362259E1CAA8BE7F0E1FB1 /* UIDatePickerAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168DE5B947AB0CADC0794AAD7BBE7DB2 /* PLSqliteDatabase+Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 810E88EC68F45928CDF869ABA2AB2395 /* PLSqliteDatabase+Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B0D4DA4C9F7F5CC59EC81B6F74ABE0 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 07A4B2DF6AD7ADF49FB12FECA4BE0BFC /* GMSCore.strings */; };
+		17669023B013814044DCD393CE553CBE /* RightMenuHolderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECA40F7EA36A615C4D6FC6153502BA2 /* RightMenuHolderCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17AE85182D28A5E7136C135D85FA0EA7 /* PLSqliteDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5980C676D53285E5D9ED4D0D81ED6E /* PLSqliteDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		199179B4D65A7BBB2606F6DE41A938E4 /* NSDate+convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = CF42D6BCB272F548755DEAF906C00659 /* NSDate+convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D39786270A1FC118DA42420EA2F1E6 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = D283924B92A2DA7CAC92D2C1B52188D9 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB3A39E9464FAA3CE09A7323BF22972 /* UmeoxCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA663E9E99AB5567853BB3640743C9F /* UmeoxCommon-dummy.m */; };
+		1ACB3ADCB049AC5137ED279C175028C2 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = FCB6C0CF041874FACF6F9EA1F473B36C /* GMSCore.strings */; };
+		1AECAE5C5EDADD5931372B68DA828AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1B289C9235AF145335C3FE06BAB35806 /* road_2-1.png in Sources */ = {isa = PBXBuildFile; fileRef = 65B29535C7A9D558428304DE5C48EF95 /* road_2-1.png */; };
+		1B6632DD645D65A9C2FE98DE5593DC0A /* GMSNavSprites-0-2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 044E1CA8230A8BED6064FBCEEA134688 /* GMSNavSprites-0-2x.png */; };
+		1C492479B9542D1E983F957FFA5DB32A /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = CFDB2E1A5977662929A4EEABAF8AD0C9 /* GMSCore.strings */; };
+		1C9CF2F1DCF3C87D8E0C997CD622F3D5 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 503F6A1277FA6C9D39D5B99FCAA02577 /* GMSCore.strings */; };
+		1D7FE5C5B51047270A4EAADF682D6A0F /* dav_one_way_16_256.png in Sources */ = {isa = PBXBuildFile; fileRef = A5FEFCA74ED86C7C82D1A02CCDFDFEE1 /* dav_one_way_16_256.png */; };
+		1FEBB0CF317D686DF8F275202C0CE3E1 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = BE6FACE9AE4C739FB3F160767806D3B9 /* GMSCore.strings */; };
+		20113CE74149C458071B96F246E80556 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = D0BEDA646F0067EF7630E8ACFB5261E2 /* GMSCore.strings */; };
+		20158285605069858A5C9795B26D1404 /* WCGuideScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9BA136ADAA6AC6DB7CF1DC4C295C57 /* WCGuideScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C9F1233366342D3CD9F69C01F2E9ED /* ic_compass_needle_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = A8FED114F7B91BE7AFF95CE3AE2CB7E5 /* ic_compass_needle_32pt.png */; };
+		21051ACCEA4899610DA1BD0F749AE09E /* ic_closed_place_waypoint_alert_night_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 93A36707131103F1B9752234AABE3E90 /* ic_closed_place_waypoint_alert_night_32pt.png */; };
+		217F4C823A9E1A5DBF91907539C566F2 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 01BB4BEB6F7ABEE6B69478EE9889C653 /* GMSCore.strings */; };
+		21C869B12DCC12375D0270E40102C3EE /* K3StyleTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A12C170F2D5A6FF4F9B9D5D81843605 /* K3StyleTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21D3C09E29AF7EDF787AF87450E9CBD2 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2261F667FF9950DBD26262CF0255E /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		223B57E6F31D548512E99976832F163E /* CapsuleDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E84EBA895FD86541E190340B13789168 /* CapsuleDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D42B6A98631A806B5B648CDA324C2A /* road_32-8.png in Sources */ = {isa = PBXBuildFile; fileRef = A2150E8EF84AD69F7B1B35673EB68FE3 /* road_32-8.png */; };
+		24218F1AF1EEDAFA2B4A3575DA584A3E /* ic_qu_direction_mylocation.png in Sources */ = {isa = PBXBuildFile; fileRef = 803C5C2B1770DC788AD489C7D3182F60 /* ic_qu_direction_mylocation.png */; };
+		24D3CC95319FA5E0530A921B4F5AC521 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB198DDEB4D65E659760F6DE17D00C8 /* UIColor+expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253947D17E142BADAF067D0CD6496B93 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 057486B7A8897E092BFED1D877DAAF8F /* GMSCore.strings */; };
+		25EC39848911621DB69A6297ABD9DE24 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 14A881B2F66CFE6725D894F9E47244BD /* GMSCore.strings */; };
+		26B82B067C1FD95B106DB5EECF03F4E6 /* CustomSetSortView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC0291B5F4BA9798E25C09AE467B702 /* CustomSetSortView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27548B895ED9243E46EFC3A9BD8566D4 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = F6D2ED6817D2CE2062A8986EFFFCA128 /* GMSCore.strings */; };
+		27FC8BE3D319D64B3E912BA60D2BA71C /* button_background@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 274E554F0F2FA1DB2D0AABDE06E79EB7 /* button_background@2x.png */; };
+		295B83488B76F51A7DC32127EBCE345A /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = E544A78DA39E97BE813B382FC5D2DA9B /* GMSCore.strings */; };
+		29A43E5CCF41CFAEAD4C542745BA3C6D /* oss_licenses_maps.txt.gz in Sources */ = {isa = PBXBuildFile; fileRef = AF57C74B0A98A99B11BC675443C45C7B /* oss_licenses_maps.txt.gz */; };
+		2A18B7837DE1F867F4B81B8DFF16FA8B /* ConstVal.h in Headers */ = {isa = PBXBuildFile; fileRef = 348350469AB2C7B1AB6224AC420C1B92 /* ConstVal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE1773552B85A20F2E3150D96FC001E /* NSString+SubString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCA594A941F1989B346DECE971D5A1B /* NSString+SubString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E150260A433037F3F16BC1F9BB2609B /* button_compass.png in Sources */ = {isa = PBXBuildFile; fileRef = 11504528D66515A9B1897E4CB902B056 /* button_compass.png */; };
+		2EA373245DDF841B5098C29D0FCD9FCF /* UtilVoice.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D65152FD550FDB718924C6A4F1BE09 /* UtilVoice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB469D48DBF74368CF3D5AE7C4C43BE /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = AD50D0E8E9DD752B1C4C4B99CDA64A0B /* GMSCore.strings */; };
+		30AE94713090497800D8C73FA68EC9B8 /* button_my_location.png in Sources */ = {isa = PBXBuildFile; fileRef = 08F3C6771379A3F23894016591C3091E /* button_my_location.png */; };
+		322CCFC941CE548C0ECBB75B5127F1FA /* NSFileManager+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DD08DB55317BB42D56871D568C1ACF /* NSFileManager+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		339D773666B0EB864F06EF8954ED0C61 /* ic_location_off@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E357155C4F16AFD988C7EF5A83018EB6 /* ic_location_off@3x.png */; };
+		3440766B7842DBDE170474B55F18E1D2 /* PLSqlitePreparedStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B90B9F35E7C84E7BC9E108547559B8 /* PLSqlitePreparedStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366F07DA18CB58013CA995A601A752C5 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = A614FB8F3D709D9BFDEB17ACE9E33EF0 /* GMSCore.strings */; };
+		3689FB17652B55379A1CA424F282719C /* button_compass_night.png in Sources */ = {isa = PBXBuildFile; fileRef = 7502BE61C6D426374BBC380BEEFDD506 /* button_compass_night.png */; };
+		3760FD0F0B7EF40651C28E7C9899EF40 /* PushMsgData.h in Headers */ = {isa = PBXBuildFile; fileRef = E68C310DB10188601F04A40A13F7EF17 /* PushMsgData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		378E73F1398FD0736C609CBDCCC79AA2 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1D005D992EA82FB50173A6D5BC51B0 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39771D5759C923027ED90B3AE86B2488 /* KGTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F834CFDA168E0A79EE41436639BB8140 /* KGTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A41E7FD7A0F0BFA923A0907773B4BB7 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 627E2792EAC5778138131D57A0040D66 /* GMSCore.strings */; };
+		3B28D52B4C80BBDEFC3C84ACB8F1465C /* GCDiscreetNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66649E81FFF1C72A824A87D12A3698C0 /* GCDiscreetNotificationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD2943E18F57A808ADD8CB4E65A1A68 /* road_256-64.png in Sources */ = {isa = PBXBuildFile; fileRef = AE0C0E898F7D4305E6F84F582C74B5B6 /* road_256-64.png */; };
+		3C68561CF82C3F4A16733D295A2D6E7F /* Tooles.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC4B431A777FFB90708945F53EC4593 /* Tooles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408172270859EEA74DAA4E6DDA980E56 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5DE4317AF71C197BC1D1B8C23379C /* GMSCore.strings */; };
+		40819FAA56CDA686041624877558DBE8 /* DES.h in Headers */ = {isa = PBXBuildFile; fileRef = 4699B0DA6E827420F0E57EC2C7DB8B9B /* DES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		444CDF0B814092ABDB7C3B2419FB4BFF /* UIButton+backgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D66F5845A213F8BF0CE017A7368C392B /* UIButton+backgroundColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445384F5E79A4C582C0E49B1E2A70C76 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 50FC08C0C3341824C3CEF7FA209D70EE /* GMSCore.strings */; };
+		45AE085A4EAC793BD096E285CE86D2C1 /* PLSqliteResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C42A32D89A4180A83790546E4D5BA0E9 /* PLSqliteResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B79326E766410F9A88931068FC01CA3 /* ZYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E802B6D2EF9CC5157D01E7CA1D63FB /* ZYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE35EFFE215A32526741759D3CFA7B6 /* ic_error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9E39C67724F978912397B574918EA6D9 /* ic_error@3x.png */; };
+		4C5E5098DF008757A2E8E62EDCF647D0 /* MD5Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9091BE926E884DA38A55D5E881AFBD /* MD5Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D595682AC8D2A02445D54EA4BC7AC32 /* PLResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C36F052C20D8B07F9D00610CC91B841F /* PLResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52EEA790D6076059B887700CAC9B4FD7 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F944B8C1EBB8183294063874D33B23 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		532F176B2B67A7C6DD1A85ACD0BBAED6 /* ic_closed_place_waypoint_alert_night_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C36CA8347AFF7219F171458194B49C3C /* ic_closed_place_waypoint_alert_night_32pt@2x.png */; };
+		547641E137294BD7DB7C27BF5F67DAF0 /* bubble_right@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 310F44F387399BBEE308A362DF211933 /* bubble_right@3x.png */; };
+		55268F8B730F5F4C6251E3331D939C9E /* UIViewController+GCDiscreetNotificationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BC2DCCA7F250034C0A1775802C7C19 /* UIViewController+GCDiscreetNotificationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558DC43177573061C5A657A0B309BF28 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = F65DAC48969314316E1264D225C00E3C /* GMSCore.strings */; };
+		565CC945966A542D1A455D3883E9C8AD /* GMSSprites-0-3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6655820E4D9C0A85BBEC238E09A12B6E /* GMSSprites-0-3x.png */; };
+		56A3423BCBB108A10E0569E40A78F523 /* StretchableImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 187766C0422E505F1407B941A81927CB /* StretchableImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F01D05D2A53B2A59A5863C13196625 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 27CE122DA6908D4D16A4D2594A3E5AA1 /* GMSCore.strings */; };
+		573AC0EEB94E3E0B7FDAF54FCFD8895A /* DroidSansMerged-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 72293A64026A216C99E952566A3D952C /* DroidSansMerged-Regular.ttf */; };
+		57A957DDB73D9A4337DD3BE57C6880A5 /* Pods-UmeoxCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ABF437DBECAF1CD7DFB2F5CCD06CAB /* Pods-UmeoxCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5882431FE1CF88B3B3E64DF8CE9E34CB /* GMSSprites-0-2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7461C03B8B90B9CBA33A5F3C7FDF5F39 /* GMSSprites-0-2x.png */; };
+		593AFE5832019FA2370E9B74EDFAB057 /* TraceLineTableViewCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = 8583BEEAEEF991ECC1E40105E4BB4E62 /* TraceLineTableViewCell.nib */; };
+		5A07BF33517A9324E1E3C9A7D3E47F5F /* GMSNavNightModeSprites-0-2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3EB76D6DC561CD3C1A4C201AB972F37D /* GMSNavNightModeSprites-0-2x.png */; };
+		5AEACF99F68064B7D2697F12855E8CD6 /* ic_covid_medical_waypoint_alert_night_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = D0E9ACB21375FA684520B110680A8940 /* ic_covid_medical_waypoint_alert_night_32pt@3x.png */; };
+		5B1CB3A54DE0C53FD9DEA5293F7CE7BA /* GeoFenceBean.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00428E484C6DE3D0CF07C09051275E /* GeoFenceBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFBF9F384CEB769D3BA0390D3AE10F8 /* default_marker@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C629ED668831BF8074DC330665BD2291 /* default_marker@2x.png */; };
+		5C4ED3926756E025F198C3ABFF7B91E6 /* Pods-UmeoxCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E822DA16ED5183B17F4E8BD8AE2D8C /* Pods-UmeoxCommon_Example-dummy.m */; };
+		5D487FAAE4D6BD3A492B36CDE68DBFA1 /* bubble_right.png in Sources */ = {isa = PBXBuildFile; fileRef = E7A43959FAD4A82C0901436A3C3204E0 /* bubble_right.png */; };
+		5D5DE793ADEC2D783F689C43EBE2FD80 /* ic_closed_place_waypoint_alert_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 80A720D593DC66D77E934FD3D2075565 /* ic_closed_place_waypoint_alert_32pt.png */; };
+		5DDA6F53F4D36842F3C23F45E1FEAF1D /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = D924C954D2EFEE3487D52DEAD3BC0191 /* GMSCore.strings */; };
+		5E330D18CAFDFBF163994420517A8FE0 /* Pods-UmeoxCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76B2619B3D696FB41C822C8BFB888F6 /* Pods-UmeoxCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F25CDAAACB135563B54435472DE65F2 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD09552548AA6D0203803018395969 /* GMSCore.strings */; };
+		603069D24027692ABE68A907D278813E /* PLSqliteConnectionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D39A70DE4884CFC100587FDDCDCA92 /* PLSqliteConnectionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6205CBC9385E6BADAB5F61FB032800CE /* road_128-32.png in Sources */ = {isa = PBXBuildFile; fileRef = A24246B3C8F390E77040F7AF66F5F561 /* road_128-32.png */; };
+		625817F4D9E3D5686C2EA1685CCA9B2E /* StorageWithTileProto.mom in Sources */ = {isa = PBXBuildFile; fileRef = 88D35C98C9109B312857FCCE9FC58E68 /* StorageWithTileProto.mom */; };
+		6416FD5CF6D80146E463A5A75ACAA29A /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 955006AC74D13E068E2B2B046BCC6CA4 /* GMSCore.strings */; };
+		6507059053FC33FE0B66EA01CC01224E /* ic_closed_place_waypoint_alert_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F5491FE055621968142B1E91C316B /* ic_closed_place_waypoint_alert_32pt@3x.png */; };
+		651C436379903441263F94A0B734D868 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B6E83CE63C8C08CEA67969FB744B0 /* GMSCore.strings */; };
+		65DC899CEDE5A0A0DFC5914F03A3C173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		665281CDD1A35AA5F89F71A5378342BB /* NSURLGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C3FF525BEC65387EA8164C051ED2AE /* NSURLGenerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677D59F985F0E6D3F52AB849C18620D4 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 70467169DF5094649A88E566E0674FC7 /* GMSCore.strings */; };
+		68EF844FF9458A0C94502B3C5422CA4B /* NSObject+Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF54C2F6798B72C8E1B4FD6979B4004 /* NSObject+Json.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69662AD8D6412ADA214F445C9C39B86F /* PLDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DFC042FCC8ED7CC24AF237FA603A3B2 /* PLDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1C1AFBA650A8F6074140FA6BBD96D9 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = A4862438961778D6F06DA4B3991DED07 /* GMSCore.strings */; };
+		6B468FC31D2AD4F2619C1E43C6547D49 /* button_background.png in Sources */ = {isa = PBXBuildFile; fileRef = 76E85868A82E7B2A4AA63073EA0F2EB9 /* button_background.png */; };
+		6CE17C3DD949FDF53DA54C9011D43489 /* bubble_left.png in Sources */ = {isa = PBXBuildFile; fileRef = A1D4CF383A4F6EEBA816BF8F7FDCC0A2 /* bubble_left.png */; };
+		6ED234006881E6D695D483235F002645 /* PLPreparedStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 2548875674FEEE92E9D237C4B9323A85 /* PLPreparedStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD77ECF26D71FBF23A1AD9B65AD6B53 /* NSLocalURLG.h in Headers */ = {isa = PBXBuildFile; fileRef = EF068F496AA04101796110DD4B429EE0 /* NSLocalURLG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7131161586CF09600F48B70154BEA09E /* NSMutableArray+Desc.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A040B510FE63ABE3802A2634BFBE08 /* NSMutableArray+Desc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7278DCF39B7AC74BDB61AD849FA77A98 /* UIView+ChangeFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7266192ABEF0579359312CEA1853A32D /* UIView+ChangeFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A15E381137411D49390D0847CE8C9A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = CC19B72F9FD92D59F19A45FFCE9A8324 /* Info.plist */; };
+		75FCDB24BFFD593EB34CE1B404AA35C6 /* ic_covid_checkpoint_waypoint_alert_night_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E4119A7036527DE7A6A2CC2A0D7B6D91 /* ic_covid_checkpoint_waypoint_alert_night_32pt@3x.png */; };
+		760D54C6A2BF544A2EC954B513630EDB /* WXB2Position.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5C80DD1194D75ACBFE38E4C068C5CC /* WXB2Position.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76217D4ED07C2C0B96A7ED143829771D /* TraceLineTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E920993AA5D6BCA0C9C621DD223192 /* TraceLineTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76815BFB9CB364624895A2937F3A7E88 /* button_my_location@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6220CAEF52C6C3F89D6BEA370A821664 /* button_my_location@2x.png */; };
+		76D767EDF89B836CD4437B3C897326BB /* default_marker.png in Sources */ = {isa = PBXBuildFile; fileRef = B8D4E67E0B5C221E2EB4AD5D5A4D3FAC /* default_marker.png */; };
+		77EAB2DB9B6DBF5F5B2E01DAF7AE237C /* SOSNumberBean.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8465F80EA2A86721DC54A691004791 /* SOSNumberBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78066F69D6F6455ABE5F68A8CC086448 /* button_compass_night@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A452DA228A5A319A4A9810E9C5CC13FE /* button_compass_night@2x.png */; };
+		787F3DB134C7B62CE348D9BEAC4612D4 /* ic_error.png in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E83E176D5C658C2DE11865B47B096 /* ic_error.png */; };
+		790AC38D163C808B8E962E02C731CDB4 /* PLDatabaseMigrationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E4B39D7C57E43AD85A4A25581077A5 /* PLDatabaseMigrationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7918AE0D80EA55EF2409239C797D8DD6 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = FA46F925C6D060D2C5B2222272430530 /* GMSCore.strings */; };
+		79B9A54005BC23FDB6B8455F44B6B0E1 /* ic_covid_checkpoint_waypoint_alert_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 940D0928BAF023E0DD8E2F1CFFDD236D /* ic_covid_checkpoint_waypoint_alert_32pt@2x.png */; };
+		7C23A79D91AA63B1AD6A4948FDE524AB /* UmeoxCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3526095EE3C368A67F802A21A2AD193C /* UmeoxCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EA5DFB0379EBECCC1EE52E4DC1AF09A /* bubble_left@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5203BF46E29CEB679DED358F0FF74336 /* bubble_left@2x.png */; };
+		7EFDD85B3A9BFEE28EA54533FC97FE2B /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 07015C1C173E2BF0079640E6AA675779 /* GMSCore.strings */; };
+		7F0B3EF2B68DC44D6B823D6908374F00 /* NSString+Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F7843476EB5B3B7E328AD66065B73B /* NSString+Json.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1B1EBA655C6AE223C63DFEE09CF5A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F794334AD72EE62CF376D142492B3EA /* polyline_colors_texture.png in Sources */ = {isa = PBXBuildFile; fileRef = 2377E0C82FC1C89FCDCD93D76BE7A487 /* polyline_colors_texture.png */; };
+		7FB4A2DD907CE2DA5FDDDD09B315F8C9 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 020724AA49167684896C03B21C775E28 /* wav.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF99A43852196A15A4174BEE39CFFBC /* Assets.car in Sources */ = {isa = PBXBuildFile; fileRef = 3CCBA96E37EC17735597BE3BF20A2D5F /* Assets.car */; };
+		80FC1A87FD6C1CB7488F8956FF0F787D /* StretchableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C03A682655E7DED0AD465EB2D3FA3B6D /* StretchableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829C08F34F63C61698A06FB751063346 /* WTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E030CAB7E80E0F6842A8A7BCD1623AAC /* WTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829F203B6BC401DA8637AA33ECFDB0AC /* road_64-16.png in Sources */ = {isa = PBXBuildFile; fileRef = 64E6C159C5B1DA955B0E0B127DC93E13 /* road_64-16.png */; };
+		8489070848E3A12D6BBD15F59E443653 /* SystemMsgBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 681798484E404D80A329F09D81061BC3 /* SystemMsgBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864BAEFCE429ED4A6939DBC1033AB067 /* ic_qu_direction_mylocation@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 04009A6BB444BF31A34737751252A300 /* ic_qu_direction_mylocation@2x.png */; };
+		8731BA08F7EAD7D7CAEBF77CF4D262C7 /* ic_covid_checkpoint_waypoint_alert_night_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 125AE4ED5BF85CCA0D5DFD78E7A95472 /* ic_covid_checkpoint_waypoint_alert_night_32pt.png */; };
+		8789A023B540E0F754FD90B7E384C42B /* PLDatabaseMigrationVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A2B057B391D9544B5F5AFE2DF47A8A /* PLDatabaseMigrationVersionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87B0830F366BA876A1FD6EA8F44DDDB9 /* NewClassTimeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 511CAF55B8F6F3A50CC738C45AB43091 /* NewClassTimeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88568E2ABFC62B29B909020C1949A373 /* ic_closed_place_waypoint_alert_night_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 238D959627674BC52DE57431D5BC381C /* ic_closed_place_waypoint_alert_night_32pt@3x.png */; };
+		887C88B282D13352DDD992E89E1B43C5 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = F7E78B2B8DAF3539866FB2773042CC23 /* GMSCore.strings */; };
+		8B2BE36E5ECF5021210AADF8360CCCC9 /* ic_location_off@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CE9032ACF77C5BCA2B9D2979A282ABF6 /* ic_location_off@2x.png */; };
+		8BC512E8ABE97FB60B19E7A41146B03F /* NSNetURLG.h in Headers */ = {isa = PBXBuildFile; fileRef = EA274DD331A156E89BA13D8972C402F3 /* NSNetURLG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E68794FA1B36D110611C40D760B879D /* HomeCustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D48AECCC55CD0E58909F98A40BAB938 /* HomeCustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F63915B4A22AC87BC5A08EAC05D9459 /* GMSSprites-0-1x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E8A0BB879DD2AA0990AB241B1CBF5 /* GMSSprites-0-1x.png */; };
+		90518CFC455FE271325779EB7DD30C5A /* WChatMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B258D3959A37DA8A9111F5231E5DE42 /* WChatMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91586F211422E328D6B7E86D2503D2C3 /* ic_error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F4E288FF20368F59F0B930283B15ED00 /* ic_error@2x.png */; };
+		93D6D156D7317B0B8366FC6895770D83 /* GMSNavNightModeSprites-0-1x.png in Sources */ = {isa = PBXBuildFile; fileRef = 75749E8A4F5BCB960DDA7FFC21391A67 /* GMSNavNightModeSprites-0-1x.png */; };
+		93E34281DBB0DE2177816DFEEF3E6E9A /* default_marker@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1E90D653F00D146FA825B8E98A14F47D /* default_marker@3x.png */; };
+		9429C2D4B473835E43A1C6BF418AC39F /* CapsuleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9476DFF93ED2D76476ED956BF289D74A /* CapsuleUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94FC82281C728D8F2BE1044EF23B9D1E /* polyline_colors_texture_dim.png in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2660F1FD9E6F7B6987951F5539E6C /* polyline_colors_texture_dim.png */; };
+		9BED38CD1D5301F81DFEB1424C19956B /* UserDataInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9F0CF0E732F5D03A92C3838E2AE34A /* UserDataInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6F79A4D92095DA9714D48E39EBF706 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = CBD2EBF6E37C8E8FFEF7B6A4BD449A0E /* GMSCore.strings */; };
+		9E2747CE9F13216A864D98834B8C844A /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 99F2E9945B65D45345334E7DA941EF75 /* GMSCore.strings */; };
+		9EAB3332FFE51655D46CD2E839FB7DFB /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 395944F46DB1677650873F0375577AF2 /* GMSCore.strings */; };
+		9EAF7DA9C2F8F54B549149D7DE4D79D0 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 6320B7C1888B193393253D9F31519580 /* GMSCore.strings */; };
+		9EE722839B5B133696AB1D13D2E43543 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = E44E9362077801970E13B63E6A6CA276 /* GMSCore.strings */; };
+		A255F4E8E679EA31934B80CCAA82869B /* CustomSosNumberCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = 9340F0D793CCAC9D0BA7A58819A1D991 /* CustomSosNumberCell.nib */; };
+		A2663421EA2C78B8C2BF65A74BFB1863 /* ic_qu_direction_mylocation@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 851A5E7ABA093A5A41E9F41A9B4F65D3 /* ic_qu_direction_mylocation@3x.png */; };
+		A3B29AF15870F5D49D22C88F75E45830 /* AppData.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9F978FFE99C0CDEF7EA5B6AFA76023 /* AppData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64A75C13CD850938F519216B8D5180A /* CustomDetailViewCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = 81025A3D2A57EBEBE874B84CB413912A /* CustomDetailViewCell.nib */; };
+		AA9EB3C8746929C9120EA31E82C3C585 /* GMSNavSprites-0-3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0E55CC43C94A04D3D8071B7AD18A0424 /* GMSNavSprites-0-3x.png */; };
+		AB5391F2B9FE75FFF520B0C2966D6DDD /* CustomSosNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 625B3A06F7ECB18A83CF7A8FE97A23FD /* CustomSosNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABCB9E39FA89C838266787C16F81EB19 /* UmeoxCommon in Sources */ = {isa = PBXBuildFile; fileRef = ECCEF5FA12C8AC41345D22FA002AF9FE /* UmeoxCommon */; };
+		AC468BC276022A3DC005F5E99D717BB4 /* button_background@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3EE0DF9938F7D30B071F4F92B035CC19 /* button_background@3x.png */; };
+		AD47E2523CE6BC46B4EB953AFA2C629A /* UmeoxCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E97F26491B9429F4549A95E0E2F4A4 /* UmeoxCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6206A4436AD29750511AFEFE780143 /* ic_compass_needle_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5B552E1AF64812575FF2553A93F3847A /* ic_compass_needle_32pt@2x.png */; };
+		ADA54A4FFD37CD7A84B75527E877AF45 /* ic_compass_needle@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9D70D2D4864F80AB8C147214DBCE6E89 /* ic_compass_needle@2x.png */; };
+		ADCA50A7C5BD7FC478DDDE0E395AB5D6 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 52CB32F72C031C3910094680E534A1BB /* GMSCore.strings */; };
+		AF888E4939EB6B0554C103C1D7C787AA /* UrlBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 23025C87C6C42BB056FEA1D92229D5D4 /* UrlBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17DCA6008A13CD612AC30B84E4B43A0 /* ic_covid_medical_waypoint_alert_night_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 39CF39202B1E726243B8BCCC7C6F7001 /* ic_covid_medical_waypoint_alert_night_32pt@2x.png */; };
+		B2151A25A9B58B92A89CE5C841F60984 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 84CA178080CC03F8D7A83725328028BE /* GMSCore.strings */; };
+		B227C436836855480A18932559309134 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56EF5254A9AA97D526AD589EA9F90 /* PrefixHeader.pch */; };
+		B25350708675DBFE547AB3E42359F561 /* ic_covid_checkpoint_waypoint_alert_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 562CEF01C93D89A6F86520A387FD2168 /* ic_covid_checkpoint_waypoint_alert_32pt.png */; };
+		B28104768292FD536F320524A485A89F /* ic_covid_medical_waypoint_alert_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F17FC368772A609F720D8B1522EC928F /* ic_covid_medical_waypoint_alert_32pt@2x.png */; };
+		B3C3DC04CB1BA45B01D7A0A0AAB6761A /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 6ED3F6BD6FB106FC80F76AF4C85D13D6 /* GMSCore.strings */; };
+		B45A442930F1790A947C608E9DCB0393 /* WCommonWebViewController.nib in Sources */ = {isa = PBXBuildFile; fileRef = 18EB097C92BC0F279984342AF3198E14 /* WCommonWebViewController.nib */; };
+		B4AF2647B6C19D6A7CEBBDED229239B0 /* ic_location_off.png in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B74AADF49A6F98F1ADC5792849D63 /* ic_location_off.png */; };
+		B5000EBA391F346088FCC845D5814392 /* HolderDetailBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 565B7153F0C0F266EBE2EE84DDF0A040 /* HolderDetailBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B60BC8086F1AA16D1A0C5D22ACF74DAB /* GMSNavNightModeSprites-0-3x.png in Sources */ = {isa = PBXBuildFile; fileRef = A65F67EB49E10D55A6DC7780B043C9E5 /* GMSNavNightModeSprites-0-3x.png */; };
+		B6C22478AB7B57674622D646938BA6B3 /* GMSNavSprites-0-1x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4F864F48C995D4B02297BE01E575F37C /* GMSNavSprites-0-1x.png */; };
+		B8BAB09AAF22A4D6B6297C147BAE2327 /* ic_compass_needle_large.png in Sources */ = {isa = PBXBuildFile; fileRef = 56159AD59AA00E2B8356D048D9D94C9D /* ic_compass_needle_large.png */; };
+		B9A9565CD1FB08460E6A923994DA2F9F /* WCommonWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A537CFCE104100EB57F8285AD56387C1 /* WCommonWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9FD51C73AB7D6B8FFC1860B4A554077 /* VersionInfo.plist in Sources */ = {isa = PBXBuildFile; fileRef = DF79A8BF3D13D80EBD58B0186CED2E9B /* VersionInfo.plist */; };
+		B9FFDABE8FCFFBCC274984C8EEBC69B2 /* PLDatabaseMigrationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6DA0BA034F05C0C5E311F7FB39D43B /* PLDatabaseMigrationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB399DEAFA52656716FB74B77A4C1357 /* PushMsgBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 6373B1750044A768A991FFF021740AE8 /* PushMsgBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB97DF8572AF91367CE0376FF7EA3D5 /* ic_covid_medical_waypoint_alert_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 656DFF54703D7D2EEBDEB531ADB7F663 /* ic_covid_medical_waypoint_alert_32pt@3x.png */; };
+		BC81AB17CCD3B192EB6762F26DDFEB6D /* UIImageView+ZY_setImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E00BD8B8188E3C02793C5317F4E60DF1 /* UIImageView+ZY_setImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE278228290ACF042C71D9F43574C88 /* UIView+convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = E255D4EBD3FDCF5134C3AA795FA2DD73 /* UIView+convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE9A1A123C26887088D15BA4B9ED711 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 998DA60A59B2A6F2145FF7C52362710D /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5A4A799589562329F87B7817A897A8 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 37085C471CE1F4F7B8052A22AB2BBD9B /* GMSCore.strings */; };
+		BEAC5693AD411ACE35D25FA0987A6B7A /* WGenerateMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AFBB1815C80C33E870C47731267FBF /* WGenerateMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF57C3C872620BB1F5BC7AE13F2D2ABC /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 40DFD4130A4608747287ECAD0AEEF30E /* GMSCore.strings */; };
+		BF5BBE685A751FF71393526B2CAEEA12 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D81BFE43A4AD975CB032B1BD3B223 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF60A854B805D5CF0BDCBF7302FA1BD5 /* Tharlon-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 27D129EA1088373EA3B1ADF91033F1EA /* Tharlon-Regular.ttf */; };
+		C01CF68F69221A41A905071338F824EE /* PlistHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D62A504428B83347942457E4639105 /* PlistHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C059A6232BD09180263A8E330B5B763B /* RoundImgTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F54E893AC3B277DEEB46FAA46F386771 /* RoundImgTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0EA9BC96E4C3555E8E01C480BC10946 /* CustomDetailViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EA6B1C254DC87F02E997A0BDEDC431 /* CustomDetailViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0EE91A2EA094792F1C5B4C57AC113AF /* ic_compass_needle.png in Sources */ = {isa = PBXBuildFile; fileRef = FE862BDB4A8DF49E842A6BB35800740A /* ic_compass_needle.png */; };
+		C2B56599B19EB59F747016E07A197745 /* ic_covid_border_waypoint_alert_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 27FCBA5E501D5ADA6B2E46F320CFE5C6 /* ic_covid_border_waypoint_alert_32pt@3x.png */; };
+		C361003C64B9A1602C9F5C547AB48156 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 0C96AD27F2B807F114F14835CD9D635B /* GMSCore.strings */; };
+		C3A1FC15BCC892713D6138F4B3605309 /* myView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB8FF5CE3E45991A4EA0060794045D5 /* myView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C68156D167AB6805DC4CD49868289797 /* ic_covid_checkpoint_waypoint_alert_night_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 91ADA3D497DAC089A8CAA5700FD5F1FA /* ic_covid_checkpoint_waypoint_alert_night_32pt@2x.png */; };
+		CB035AF6D3BD3189EA78E7220E371B2E /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 4129FD20E8E1B0CD405820D8D2E6FCDB /* GMSCore.strings */; };
+		CBFAFAF371F32BFFC3480CC00800EDEF /* RoundImgTableViewCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = 4CD420A1391E124E06EA2CAF35960A7D /* RoundImgTableViewCell.nib */; };
+		CEEEA0C493C1E104791B4FC3269F3661 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 8FB488D68C11AF09EB04AA23EE58DEA8 /* GMSCore.strings */; };
+		D10977810ACBCC4CA4C1B1C995241C9D /* BTUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A00E0BE961819F079C161297F8C331 /* BTUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1EA526F5C2CD301E8093D355809AE57 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = F65AC1F25E5B078525DCD4ADF6EF11CA /* module.modulemap */; };
+		D32A22DC6947C5678D00EF2FDE292C04 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = F2DE8E3D7E5846E25845A9B6B9E04ACB /* GMSCore.strings */; };
+		D4EADA41E3BB31592F57A1714D69DE7B /* ic_covid_checkpoint_waypoint_alert_32pt@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = F320CB53D1873E0419E0AB62D68232DE /* ic_covid_checkpoint_waypoint_alert_32pt@3x.png */; };
+		D5889D414AB1B6B1F36896A1247AD390 /* AlertTypeTableViewCell.nib in Sources */ = {isa = PBXBuildFile; fileRef = 813E9B8F0FA8ADEBF2F83D4B9C6532D6 /* AlertTypeTableViewCell.nib */; };
+		D5B25A0A5BE190EE8D6CA749C4755DB1 /* ic_covid_medical_waypoint_alert_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 84278137807C800EAADA82FE7EDD2F26 /* ic_covid_medical_waypoint_alert_32pt.png */; };
+		D5BCF2AB060D5F63FB43EC893BF4D7E0 /* UtilsDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B14B513D2FE9381444DA7BE41F69783 /* UtilsDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8357491604A539F0C5C782169B43664 /* HolderPostionBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E4C1D50C6A16BE8568E211347F2FAF /* HolderPostionBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85BFABF04EFF7E2BE8D40A7738767BC /* CustomSetSortView.nib in Sources */ = {isa = PBXBuildFile; fileRef = DF365430D5BB3527A23E4ED1340EDB74 /* CustomSetSortView.nib */; };
+		D90677B90E8797F9D513105D1DA78776 /* PLDatabaseConnectionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 44702B7218998790A3623C6BB62E3D45 /* PLDatabaseConnectionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5D4F69F555CC49EB66194063A61748 /* NSObject+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = F1278D818210F6B918B1F8CE19C9DA17 /* NSObject+Validate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4B1D682A366D5D9CC50E8F8E69DB26 /* clockmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = B364AD0772094C51888859630E28DFEA /* clockmodel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEFDDD84989C0EF7A5AA7E0887DBF691 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7E38930033FE993D8AC0E20BCA02AD7B /* GMSCore.strings */; };
+		E1A8C7814E8FDAB18A3D434FCC201CED /* StorageWithTileVersionID.mom in Sources */ = {isa = PBXBuildFile; fileRef = B4595F15C6D53F2E01BA34D2DA809BDB /* StorageWithTileVersionID.mom */; };
+		E256AF69758E8EAE027703E4910EA9F1 /* CustomAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE17679DB5AFC537902104E9ED57B7C5 /* CustomAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E300E29057227CCA2A3CDFB49D8122C4 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 91BEEC73F0B32CF9D1919A1A30D216B0 /* GMSCore.strings */; };
+		E3791DC707F33D32E7FD362326DF13A1 /* UITextField+ChangePlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 935D4F610ECC29D2406FC0FE66B1D7C1 /* UITextField+ChangePlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39D9D0CB7F399434E6067F575F2B02E /* HolderBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A088398FA632AFE18BE8B7E907E4BE /* HolderBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E428FADB37A5A52436511F73B89ECA19 /* NSMutableArray+convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 31974DA8770C67C947B14EB51E88AF82 /* NSMutableArray+convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5C1544639D39347A05BD06DE0B7BA2E /* ic_closed_place_waypoint_alert_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E428E291F0D2556EC34991DBC7D944A5 /* ic_closed_place_waypoint_alert_32pt@2x.png */; };
+		E5F671F02EE6E6A6EBD3A034A27F019B /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C77623FF9C4B90CC80C14F92FB5E3991 /* Info.plist */; };
+		E64A13F6793E6B9CD7731C9FE2C52C7A /* RootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BC6009D232A9D5F46E5BE3F7DE92CD /* RootViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65702170A2A5477AC290F2A39C0B431 /* ic_covid_border_waypoint_alert_32pt@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8BF55F1C10510832B5EE6C433E563499 /* ic_covid_border_waypoint_alert_32pt@2x.png */; };
+		E675A5564885F27804AA59DDD18EFB1A /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 906AEC9F7C3246C08A59FB8234D2A9EA /* VoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85095BCE27754458800B1B12888A075 /* Storage.mom in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B22682F391C82131496E2FE12EB09 /* Storage.mom */; };
+		EA12BD88952F7ECBEA3F60912E640720 /* ic_covid_border_waypoint_alert_32pt.png in Sources */ = {isa = PBXBuildFile; fileRef = 9C92E4854B92F919BFE60B9A409DCF57 /* ic_covid_border_waypoint_alert_32pt.png */; };
+		EA874C80B412220E8864B1DD9F11C647 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CBAE36AE296E14790B5B5797D1F0AC /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA12F86C99B1F1F7FD80F0FAEB20D99 /* NSURLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1616C3B6A02DE8A4449AAE0B85F555 /* NSURLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED01CA085C6524824D739FC6B008433C /* road_1-1.png in Sources */ = {isa = PBXBuildFile; fileRef = 6A4371C0C55493F1F863034287BDD291 /* road_1-1.png */; };
+		ED996A5678CAF9F49890FC14FDB70AE9 /* MemberBean.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B80B72990E64622DB618A2B882BB8DD /* MemberBean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED4F43BA3066AA615E393EBC025AAA6 /* Pods-UmeoxCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E3AAB2D1206F3E6A9597866592906 /* Pods-UmeoxCommon_Tests-dummy.m */; };
+		F2793C24DF2F25C3CDF88A22B1655DDF /* ColorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B1937B884F366EDFF822D3B9C49404 /* ColorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F351CE1C9A05E6BE7720B7396B95C45A /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = 69E7D4A0FC097996BD4A7692F9241545 /* GMSCore.strings */; };
+		F3A57687F4C4E092725652BD49F8EF64 /* AlertTypeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D2110F2B7D5BA7B9DF9B786D9BA15254 /* AlertTypeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41D10BA60BBBE93ACDA522D9B8F11A4 /* GMSCore.strings in Sources */ = {isa = PBXBuildFile; fileRef = B78D9BDF45CAC6875D42710B8F51C4F1 /* GMSCore.strings */; };
+		F48552469A949F6329CB31A67437C41B /* CustomGMSMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0A3B502E46DD8B7321970645EFA1E5 /* CustomGMSMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9ED7275E6FAB0062F6164F007A8B170 /* RectCoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9B65E529117D87C2E9401F9B982328 /* RectCoverView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF6F85A7D60489684A033BAC7282E46 /* PLSqliteMigrationVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F48F5599387D0E987F22456ECF8759 /* PLSqliteMigrationVersionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD3370CA471278CDE7E3489924DE0044 /* ic_compass_needle_large@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 81F99C7DFBA818A8AE341EA03A221003 /* ic_compass_needle_large@2x.png */; };
+		FE305463DEEB3CF3B688A821F400378D /* ic_compass_needle_large@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0BC969326D7BFD2E175925E63A68EF16 /* ic_compass_needle_large@3x.png */; };
+		FE538DF124064CEEBB43F2AF63D339CF /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = B777AFD2F5268CB2F8D38577EEFD6075 /* CodeResources */; };
+		FF12E1AA18FB083B030844DE2939DDFF /* JsonParseUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 42067C0645A952334EA33CD971A9A501 /* JsonParseUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B77790FD112FB992539EA6CCFDC0735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F5F9B4D662DD5BAB12C25B369CF9C7;
+			remoteInfo = UmeoxCommon;
+		};
+		950987C306AD7BE0575866314D751F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92694069EC47650882226C85F5F7BA0A;
+			remoteInfo = "Pods-UmeoxCommon_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F9FC5D5911B6CBC534576D0463169 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = he.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		00A088398FA632AFE18BE8B7E907E4BE /* HolderBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HolderBean.h; sourceTree = "<group>"; };
+		00E97F26491B9429F4549A95E0E2F4A4 /* UmeoxCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UmeoxCommon.h; sourceTree = "<group>"; };
+		01BB4BEB6F7ABEE6B69478EE9889C653 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = sr.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		01FA2AF9A2F6660780A42F2B72D7BB0E /* road_4-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_4-1.png"; sourceTree = "<group>"; };
+		020724AA49167684896C03B21C775E28 /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		04009A6BB444BF31A34737751252A300 /* ic_qu_direction_mylocation@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_qu_direction_mylocation@2x.png"; sourceTree = "<group>"; };
+		044E1CA8230A8BED6064FBCEEA134688 /* GMSNavSprites-0-2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSNavSprites-0-2x.png"; sourceTree = "<group>"; };
+		057486B7A8897E092BFED1D877DAAF8F /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = sv.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		07015C1C173E2BF0079640E6AA675779 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = tr.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		07A4B2DF6AD7ADF49FB12FECA4BE0BFC /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = sq.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		07EA6B1C254DC87F02E997A0BDEDC431 /* CustomDetailViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomDetailViewCell.h; sourceTree = "<group>"; };
+		08F3C6771379A3F23894016591C3091E /* button_my_location.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = button_my_location.png; sourceTree = "<group>"; };
+		092FD04C41992CB2ECB2EDC1B8232E52 /* PLDatabaseMigrationTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLDatabaseMigrationTransactionManager.h; sourceTree = "<group>"; };
+		09955090CA15B734A0B405A80C385C1A /* Pods-UmeoxCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UmeoxCommon_Example.modulemap"; sourceTree = "<group>"; };
+		0BC969326D7BFD2E175925E63A68EF16 /* ic_compass_needle_large@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_compass_needle_large@3x.png"; sourceTree = "<group>"; };
+		0C0A3B502E46DD8B7321970645EFA1E5 /* CustomGMSMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomGMSMarker.h; sourceTree = "<group>"; };
+		0C96AD27F2B807F114F14835CD9D635B /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ar.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		0CB198DDEB4D65E659760F6DE17D00C8 /* UIColor+expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		0DB956F643BB7688C3DB6C52C2BDB314 /* UmeoxCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UmeoxCommon.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		0E55CC43C94A04D3D8071B7AD18A0424 /* GMSNavSprites-0-3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSNavSprites-0-3x.png"; sourceTree = "<group>"; };
+		0E6B22682F391C82131496E2FE12EB09 /* Storage.mom */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.bplist; path = Storage.mom; sourceTree = "<group>"; };
+		0EC0291B5F4BA9798E25C09AE467B702 /* CustomSetSortView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomSetSortView.h; sourceTree = "<group>"; };
+		0F1D005D992EA82FB50173A6D5BC51B0 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		0F74A65DA88EE723BE9257ABAB08DEB8 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		0FCA594A941F1989B346DECE971D5A1B /* NSString+SubString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SubString.h"; sourceTree = "<group>"; };
+		0FD2443123362259E1CAA8BE7F0E1FB1 /* UIDatePickerAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIDatePickerAlertView.h; sourceTree = "<group>"; };
+		11504528D66515A9B1897E4CB902B056 /* button_compass.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = button_compass.png; sourceTree = "<group>"; };
+		125AE4ED5BF85CCA0D5DFD78E7A95472 /* ic_covid_checkpoint_waypoint_alert_night_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_covid_checkpoint_waypoint_alert_night_32pt.png; sourceTree = "<group>"; };
+		14A881B2F66CFE6725D894F9E47244BD /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = nl.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		187766C0422E505F1407B941A81927CB /* StretchableImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StretchableImageView.h; sourceTree = "<group>"; };
+		18EB097C92BC0F279984342AF3198E14 /* WCommonWebViewController.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = WCommonWebViewController.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/WCommonWebViewController.nib; sourceTree = "<group>"; };
+		1A3E83E176D5C658C2DE11865B47B096 /* ic_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_error.png; sourceTree = "<group>"; };
+		1ADD09552548AA6D0203803018395969 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = lv.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		1D8304C2D1F280403AB8DA6F6D22B1E1 /* bubble_left@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bubble_left@3x.png"; sourceTree = "<group>"; };
+		1DD2261F667FF9950DBD26262CF0255E /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		1E90D653F00D146FA825B8E98A14F47D /* default_marker@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "default_marker@3x.png"; sourceTree = "<group>"; };
+		1ED56EF5254A9AA97D526AD589EA9F90 /* PrefixHeader.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1F5980C676D53285E5D9ED4D0D81ED6E /* PLSqliteDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLSqliteDatabase.h; sourceTree = "<group>"; };
+		23025C87C6C42BB056FEA1D92229D5D4 /* UrlBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UrlBean.h; sourceTree = "<group>"; };
+		2377E0C82FC1C89FCDCD93D76BE7A487 /* polyline_colors_texture.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = polyline_colors_texture.png; sourceTree = "<group>"; };
+		238D959627674BC52DE57431D5BC381C /* ic_closed_place_waypoint_alert_night_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_closed_place_waypoint_alert_night_32pt@3x.png"; sourceTree = "<group>"; };
+		2548875674FEEE92E9D237C4B9323A85 /* PLPreparedStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLPreparedStatement.h; sourceTree = "<group>"; };
+		274E554F0F2FA1DB2D0AABDE06E79EB7 /* button_background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		277BE8713CFBDCB5AF7D380EFDA39DA1 /* UmeoxCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UmeoxCommon.release.xcconfig; sourceTree = "<group>"; };
+		27B90B9F35E7C84E7BC9E108547559B8 /* PLSqlitePreparedStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLSqlitePreparedStatement.h; sourceTree = "<group>"; };
+		27CE122DA6908D4D16A4D2594A3E5AA1 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = th.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		27D129EA1088373EA3B1ADF91033F1EA /* Tharlon-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Tharlon-Regular.ttf"; sourceTree = "<group>"; };
+		27FCBA5E501D5ADA6B2E46F320CFE5C6 /* ic_covid_border_waypoint_alert_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_border_waypoint_alert_32pt@3x.png"; sourceTree = "<group>"; };
+		29C3FF525BEC65387EA8164C051ED2AE /* NSURLGenerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSURLGenerate.h; sourceTree = "<group>"; };
+		2CE2660F1FD9E6F7B6987951F5539E6C /* polyline_colors_texture_dim.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = polyline_colors_texture_dim.png; sourceTree = "<group>"; };
+		2D48AECCC55CD0E58909F98A40BAB938 /* HomeCustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeCustomButton.h; sourceTree = "<group>"; };
+		310F44F387399BBEE308A362DF211933 /* bubble_right@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bubble_right@3x.png"; sourceTree = "<group>"; };
+		31974DA8770C67C947B14EB51E88AF82 /* NSMutableArray+convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+convenience.h"; sourceTree = "<group>"; };
+		348350469AB2C7B1AB6224AC420C1B92 /* ConstVal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConstVal.h; sourceTree = "<group>"; };
+		3526095EE3C368A67F802A21A2AD193C /* UmeoxCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UmeoxCommon-umbrella.h"; sourceTree = "<group>"; };
+		35B1937B884F366EDFF822D3B9C49404 /* ColorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ColorHelper.h; sourceTree = "<group>"; };
+		36120528087C6BA1B11538164136D6FF /* ic_covid_medical_waypoint_alert_night_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_covid_medical_waypoint_alert_night_32pt.png; sourceTree = "<group>"; };
+		37085C471CE1F4F7B8052A22AB2BBD9B /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = hu.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		37090CA30B066AB96C0576A31E29DA13 /* road_16-4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_16-4.png"; sourceTree = "<group>"; };
+		37D65152FD550FDB718924C6A4F1BE09 /* UtilVoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilVoice.h; sourceTree = "<group>"; };
+		395944F46DB1677650873F0375577AF2 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = zh_HK.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		39CF39202B1E726243B8BCCC7C6F7001 /* ic_covid_medical_waypoint_alert_night_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_medical_waypoint_alert_night_32pt@2x.png"; sourceTree = "<group>"; };
+		3A93052CC0E0746B483D8E9C051BEF65 /* Pods-UmeoxCommon_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UmeoxCommon_Example-Info.plist"; sourceTree = "<group>"; };
+		3AF54C2F6798B72C8E1B4FD6979B4004 /* NSObject+Json.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
+		3C2C3C53836589C167D410C19AE1E7AE /* Pods-UmeoxCommon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UmeoxCommon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CCBA96E37EC17735597BE3BF20A2D5F /* Assets.car */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
+		3D9E8A0BB879DD2AA0990AB241B1CBF5 /* GMSSprites-0-1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSSprites-0-1x.png"; sourceTree = "<group>"; };
+		3EA0CB3EEFE7D9E3AA9C4FB5615875FF /* ic_compass_needle_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_compass_needle_32pt@3x.png"; sourceTree = "<group>"; };
+		3EB76D6DC561CD3C1A4C201AB972F37D /* GMSNavNightModeSprites-0-2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSNavNightModeSprites-0-2x.png"; sourceTree = "<group>"; };
+		3EE0DF9938F7D30B071F4F92B035CC19 /* button_background@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_background@3x.png"; sourceTree = "<group>"; };
+		3F1616C3B6A02DE8A4449AAE0B85F555 /* NSURLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSURLContext.h; sourceTree = "<group>"; };
+		40DFD4130A4608747287ECAD0AEEF30E /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = fr.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		4129FD20E8E1B0CD405820D8D2E6FCDB /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ru.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		42067C0645A952334EA33CD971A9A501 /* JsonParseUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JsonParseUtils.h; sourceTree = "<group>"; };
+		44702B7218998790A3623C6BB62E3D45 /* PLDatabaseConnectionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLDatabaseConnectionProvider.h; sourceTree = "<group>"; };
+		4699B0DA6E827420F0E57EC2C7DB8B9B /* DES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DES.h; sourceTree = "<group>"; };
+		49BC2DCCA7F250034C0A1775802C7C19 /* UIViewController+GCDiscreetNotificationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GCDiscreetNotificationView.h"; sourceTree = "<group>"; };
+		4B33A8C98590FD8E90A6E007D014B35F /* Pods-UmeoxCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UmeoxCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4CD420A1391E124E06EA2CAF35960A7D /* RoundImgTableViewCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = RoundImgTableViewCell.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/RoundImgTableViewCell.nib; sourceTree = "<group>"; };
+		4D4F5491FE055621968142B1E91C316B /* ic_closed_place_waypoint_alert_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_closed_place_waypoint_alert_32pt@3x.png"; sourceTree = "<group>"; };
+		4F864F48C995D4B02297BE01E575F37C /* GMSNavSprites-0-1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSNavSprites-0-1x.png"; sourceTree = "<group>"; };
+		500D81BFE43A4AD975CB032B1BD3B223 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		503F6A1277FA6C9D39D5B99FCAA02577 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ja.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		50FC08C0C3341824C3CEF7FA209D70EE /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = sw.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		511CAF55B8F6F3A50CC738C45AB43091 /* NewClassTimeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NewClassTimeModel.h; sourceTree = "<group>"; };
+		5203BF46E29CEB679DED358F0FF74336 /* bubble_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bubble_left@2x.png"; sourceTree = "<group>"; };
+		52CB32F72C031C3910094680E534A1BB /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = pt_BR.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		558DE8C8F3EDAF9DF1A8DBA6402E4D29 /* road_8-2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_8-2.png"; sourceTree = "<group>"; };
+		56159AD59AA00E2B8356D048D9D94C9D /* ic_compass_needle_large.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_compass_needle_large.png; sourceTree = "<group>"; };
+		562CEF01C93D89A6F86520A387FD2168 /* ic_covid_checkpoint_waypoint_alert_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_covid_checkpoint_waypoint_alert_32pt.png; sourceTree = "<group>"; };
+		565B7153F0C0F266EBE2EE84DDF0A040 /* HolderDetailBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HolderDetailBean.h; sourceTree = "<group>"; };
+		5A91891FED0D526378D81B409C7BFEAA /* Pods-UmeoxCommon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UmeoxCommon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B14B513D2FE9381444DA7BE41F69783 /* UtilsDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilsDefine.h; sourceTree = "<group>"; };
+		5B552E1AF64812575FF2553A93F3847A /* ic_compass_needle_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_compass_needle_32pt@2x.png"; sourceTree = "<group>"; };
+		5C04D204ED433BAF3A393DB312F84C0F /* bubble_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bubble_right@2x.png"; sourceTree = "<group>"; };
+		5D9B74AADF49A6F98F1ADC5792849D63 /* ic_location_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_location_off.png; sourceTree = "<group>"; };
+		5DFC042FCC8ED7CC24AF237FA603A3B2 /* PLDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLDatabase.h; sourceTree = "<group>"; };
+		5ED5DE4317AF71C197BC1D1B8C23379C /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ro.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		6220CAEF52C6C3F89D6BEA370A821664 /* button_my_location@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_my_location@2x.png"; sourceTree = "<group>"; };
+		625B3A06F7ECB18A83CF7A8FE97A23FD /* CustomSosNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomSosNumberCell.h; sourceTree = "<group>"; };
+		627E2792EAC5778138131D57A0040D66 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = nb.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		6320B7C1888B193393253D9F31519580 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = zh_CN.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		6373B1750044A768A991FFF021740AE8 /* PushMsgBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PushMsgBean.h; sourceTree = "<group>"; };
+		63DD08DB55317BB42D56871D568C1ACF /* NSFileManager+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Tool.h"; sourceTree = "<group>"; };
+		63E802B6D2EF9CC5157D01E7CA1D63FB /* ZYTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYTextField.h; sourceTree = "<group>"; };
+		64E6C159C5B1DA955B0E0B127DC93E13 /* road_64-16.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_64-16.png"; sourceTree = "<group>"; };
+		656DFF54703D7D2EEBDEB531ADB7F663 /* ic_covid_medical_waypoint_alert_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_medical_waypoint_alert_32pt@3x.png"; sourceTree = "<group>"; };
+		65B29535C7A9D558428304DE5C48EF95 /* road_2-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_2-1.png"; sourceTree = "<group>"; };
+		6655820E4D9C0A85BBEC238E09A12B6E /* GMSSprites-0-3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSSprites-0-3x.png"; sourceTree = "<group>"; };
+		66649E81FFF1C72A824A87D12A3698C0 /* GCDiscreetNotificationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDiscreetNotificationView.h; sourceTree = "<group>"; };
+		66C779C0606255B701D822F0FE6B9283 /* Pods-UmeoxCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UmeoxCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		67F944B8C1EBB8183294063874D33B23 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		681798484E404D80A329F09D81061BC3 /* SystemMsgBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemMsgBean.h; sourceTree = "<group>"; };
+		68E4C1D50C6A16BE8568E211347F2FAF /* HolderPostionBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HolderPostionBean.h; sourceTree = "<group>"; };
+		69E7D4A0FC097996BD4A7692F9241545 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ko.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		6A0B6E83CE63C8C08CEA67969FB744B0 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = fi.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		6A4371C0C55493F1F863034287BDD291 /* road_1-1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_1-1.png"; sourceTree = "<group>"; };
+		6B258D3959A37DA8A9111F5231E5DE42 /* WChatMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WChatMessage.h; sourceTree = "<group>"; };
+		6BC4B431A777FFB90708945F53EC4593 /* Tooles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Tooles.h; sourceTree = "<group>"; };
+		6E9BA136ADAA6AC6DB7CF1DC4C295C57 /* WCGuideScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCGuideScrollView.h; sourceTree = "<group>"; };
+		6ED3F6BD6FB106FC80F76AF4C85D13D6 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = sk.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		70467169DF5094649A88E566E0674FC7 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = de.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		713D3123893006F81AF6BACE85CABB86 /* myView.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = myView.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/myView.nib; sourceTree = "<group>"; };
+		72293A64026A216C99E952566A3D952C /* DroidSansMerged-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "DroidSansMerged-Regular.ttf"; sourceTree = "<group>"; };
+		7266192ABEF0579359312CEA1853A32D /* UIView+ChangeFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ChangeFrame.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7461C03B8B90B9CBA33A5F3C7FDF5F39 /* GMSSprites-0-2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSSprites-0-2x.png"; sourceTree = "<group>"; };
+		74BC6009D232A9D5F46E5BE3F7DE92CD /* RootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7502BE61C6D426374BBC380BEEFDD506 /* button_compass_night.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = button_compass_night.png; sourceTree = "<group>"; };
+		75749E8A4F5BCB960DDA7FFC21391A67 /* GMSNavNightModeSprites-0-1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSNavNightModeSprites-0-1x.png"; sourceTree = "<group>"; };
+		75AFBB1815C80C33E870C47731267FBF /* WGenerateMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WGenerateMessage.h; sourceTree = "<group>"; };
+		76E85868A82E7B2A4AA63073EA0F2EB9 /* button_background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		7864A99CAE4D0C85D98BD0750C4E1E8C /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = it.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		78ABF437DBECAF1CD7DFB2F5CCD06CAB /* Pods-UmeoxCommon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UmeoxCommon_Example-umbrella.h"; sourceTree = "<group>"; };
+		7972BA4E595E686399E3158BD34D4BB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B80B72990E64622DB618A2B882BB8DD /* MemberBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MemberBean.h; sourceTree = "<group>"; };
+		7E38930033FE993D8AC0E20BCA02AD7B /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = en_IN.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		803C5C2B1770DC788AD489C7D3182F60 /* ic_qu_direction_mylocation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_qu_direction_mylocation.png; sourceTree = "<group>"; };
+		80A720D593DC66D77E934FD3D2075565 /* ic_closed_place_waypoint_alert_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_closed_place_waypoint_alert_32pt.png; sourceTree = "<group>"; };
+		81025A3D2A57EBEBE874B84CB413912A /* CustomDetailViewCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CustomDetailViewCell.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/CustomDetailViewCell.nib; sourceTree = "<group>"; };
+		810E88EC68F45928CDF869ABA2AB2395 /* PLSqliteDatabase+Object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PLSqliteDatabase+Object.h"; sourceTree = "<group>"; };
+		813E9B8F0FA8ADEBF2F83D4B9C6532D6 /* AlertTypeTableViewCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = AlertTypeTableViewCell.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/AlertTypeTableViewCell.nib; sourceTree = "<group>"; };
+		81A2AA57D4EF5FD8A62329673CFE477B /* Pods-UmeoxCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UmeoxCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81F99C7DFBA818A8AE341EA03A221003 /* ic_compass_needle_large@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_compass_needle_large@2x.png"; sourceTree = "<group>"; };
+		825482819081FA2D04CB52F6A7089F4D /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ca.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		83E920993AA5D6BCA0C9C621DD223192 /* TraceLineTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TraceLineTableViewCell.h; sourceTree = "<group>"; };
+		84278137807C800EAADA82FE7EDD2F26 /* ic_covid_medical_waypoint_alert_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_covid_medical_waypoint_alert_32pt.png; sourceTree = "<group>"; };
+		84CA178080CC03F8D7A83725328028BE /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = es_MX.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		851A5E7ABA093A5A41E9F41A9B4F65D3 /* ic_qu_direction_mylocation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_qu_direction_mylocation@3x.png"; sourceTree = "<group>"; };
+		8583BEEAEEF991ECC1E40105E4BB4E62 /* TraceLineTableViewCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = TraceLineTableViewCell.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/TraceLineTableViewCell.nib; sourceTree = "<group>"; };
+		87F7843476EB5B3B7E328AD66065B73B /* NSString+Json.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Json.h"; sourceTree = "<group>"; };
+		88D35C98C9109B312857FCCE9FC58E68 /* StorageWithTileProto.mom */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.bplist; path = StorageWithTileProto.mom; sourceTree = "<group>"; };
+		8A12C170F2D5A6FF4F9B9D5D81843605 /* K3StyleTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = K3StyleTextField.h; sourceTree = "<group>"; };
+		8B3A1C5CC6F4F7A1AB5F84A4D3C76849 /* UmeoxCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UmeoxCommon.debug.xcconfig; sourceTree = "<group>"; };
+		8BF55F1C10510832B5EE6C433E563499 /* ic_covid_border_waypoint_alert_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_border_waypoint_alert_32pt@2x.png"; sourceTree = "<group>"; };
+		8EF26603844C6D5CBDD4912DE2094FEF /* KMoveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KMoveView.h; sourceTree = "<group>"; };
+		8FB488D68C11AF09EB04AA23EE58DEA8 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = es.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		906AEC9F7C3246C08A59FB8234D2A9EA /* VoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		9164A97CC97F2F979D9DD69063920C4A /* WPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPickerView.h; sourceTree = "<group>"; };
+		91ADA3D497DAC089A8CAA5700FD5F1FA /* ic_covid_checkpoint_waypoint_alert_night_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_checkpoint_waypoint_alert_night_32pt@2x.png"; sourceTree = "<group>"; };
+		91BEEC73F0B32CF9D1919A1A30D216B0 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ka.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		91E4B39D7C57E43AD85A4A25581077A5 /* PLDatabaseMigrationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLDatabaseMigrationDelegate.h; sourceTree = "<group>"; };
+		9340F0D793CCAC9D0BA7A58819A1D991 /* CustomSosNumberCell.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CustomSosNumberCell.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/CustomSosNumberCell.nib; sourceTree = "<group>"; };
+		935D4F610ECC29D2406FC0FE66B1D7C1 /* UITextField+ChangePlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+ChangePlaceholderColor.h"; sourceTree = "<group>"; };
+		93A36707131103F1B9752234AABE3E90 /* ic_closed_place_waypoint_alert_night_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_closed_place_waypoint_alert_night_32pt.png; sourceTree = "<group>"; };
+		940D0928BAF023E0DD8E2F1CFFDD236D /* ic_covid_checkpoint_waypoint_alert_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_checkpoint_waypoint_alert_32pt@2x.png"; sourceTree = "<group>"; };
+		9476DFF93ED2D76476ED956BF289D74A /* CapsuleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CapsuleUtils.h; sourceTree = "<group>"; };
+		955006AC74D13E068E2B2B046BCC6CA4 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = pt.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		95D62A504428B83347942457E4639105 /* PlistHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PlistHelper.h; sourceTree = "<group>"; };
+		971795BC7017A211B202C67E39461355 /* Pods-UmeoxCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UmeoxCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		98A68B669A5D44C8BDAE7B44701F8FEE /* PlausibleDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PlausibleDatabase.h; sourceTree = "<group>"; };
+		998DA60A59B2A6F2145FF7C52362710D /* NSString+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		99F2E9945B65D45345334E7DA941EF75 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = da.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		9C9091BE926E884DA38A55D5E881AFBD /* MD5Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MD5Tool.h; sourceTree = "<group>"; };
+		9C92E4854B92F919BFE60B9A409DCF57 /* ic_covid_border_waypoint_alert_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_covid_border_waypoint_alert_32pt.png; sourceTree = "<group>"; };
+		9D70D2D4864F80AB8C147214DBCE6E89 /* ic_compass_needle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_compass_needle@2x.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E39C67724F978912397B574918EA6D9 /* ic_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_error@3x.png"; sourceTree = "<group>"; };
+		9ECA40F7EA36A615C4D6FC6153502BA2 /* RightMenuHolderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RightMenuHolderCell.h; sourceTree = "<group>"; };
+		A0CBAE36AE296E14790B5B5797D1F0AC /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A1D4CF383A4F6EEBA816BF8F7FDCC0A2 /* bubble_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bubble_left.png; sourceTree = "<group>"; };
+		A2150E8EF84AD69F7B1B35673EB68FE3 /* road_32-8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_32-8.png"; sourceTree = "<group>"; };
+		A24246B3C8F390E77040F7AF66F5F561 /* road_128-32.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_128-32.png"; sourceTree = "<group>"; };
+		A24BEB418F4667F950914AC9BC2F9925 /* UmeoxCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UmeoxCommon.modulemap; sourceTree = "<group>"; };
+		A39A66A678640A012A9D0E6F1C501A5C /* Pods-UmeoxCommon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UmeoxCommon_Tests-Info.plist"; sourceTree = "<group>"; };
+		A452DA228A5A319A4A9810E9C5CC13FE /* button_compass_night@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_compass_night@2x.png"; sourceTree = "<group>"; };
+		A4862438961778D6F06DA4B3991DED07 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = hr.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		A4C85C122746CAF55F72C42718BCB944 /* UmeoxCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UmeoxCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A537CFCE104100EB57F8285AD56387C1 /* WCommonWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCommonWebViewController.h; sourceTree = "<group>"; };
+		A5FEFCA74ED86C7C82D1A02CCDFDFEE1 /* dav_one_way_16_256.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dav_one_way_16_256.png; sourceTree = "<group>"; };
+		A614FB8F3D709D9BFDEB17ACE9E33EF0 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = en_GB.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		A65F67EB49E10D55A6DC7780B043C9E5 /* GMSNavNightModeSprites-0-3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "GMSNavNightModeSprites-0-3x.png"; sourceTree = "<group>"; };
+		A76B2619B3D696FB41C822C8BFB888F6 /* Pods-UmeoxCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UmeoxCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A7A00E0BE961819F079C161297F8C331 /* BTUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTUser.h; sourceTree = "<group>"; };
+		A8E822DA16ED5183B17F4E8BD8AE2D8C /* Pods-UmeoxCommon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UmeoxCommon_Example-dummy.m"; sourceTree = "<group>"; };
+		A8FED114F7B91BE7AFF95CE3AE2CB7E5 /* ic_compass_needle_32pt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_compass_needle_32pt.png; sourceTree = "<group>"; };
+		A9D39A70DE4884CFC100587FDDCDCA92 /* PLSqliteConnectionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLSqliteConnectionProvider.h; sourceTree = "<group>"; };
+		AAA663E9E99AB5567853BB3640743C9F /* UmeoxCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UmeoxCommon-dummy.m"; sourceTree = "<group>"; };
+		AD50D0E8E9DD752B1C4C4B99CDA64A0B /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = cs.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		AD9F978FFE99C0CDEF7EA5B6AFA76023 /* AppData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		AE0C0E898F7D4305E6F84F582C74B5B6 /* road_256-64.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "road_256-64.png"; sourceTree = "<group>"; };
+		AE17679DB5AFC537902104E9ED57B7C5 /* CustomAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		AF57C74B0A98A99B11BC675443C45C7B /* oss_licenses_maps.txt.gz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.gzip; path = oss_licenses_maps.txt.gz; sourceTree = "<group>"; };
+		AF6DA0BA034F05C0C5E311F7FB39D43B /* PLDatabaseMigrationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLDatabaseMigrationManager.h; sourceTree = "<group>"; };
+		B364AD0772094C51888859630E28DFEA /* clockmodel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clockmodel.h; sourceTree = "<group>"; };
+		B4595F15C6D53F2E01BA34D2DA809BDB /* StorageWithTileVersionID.mom */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.bplist; path = StorageWithTileVersionID.mom; sourceTree = "<group>"; };
+		B72575A1A6D650E5078E007277E5A8C6 /* ProgressDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ProgressDialog.h; sourceTree = "<group>"; };
+		B777AFD2F5268CB2F8D38577EEFD6075 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = CodeResources; sourceTree = "<group>"; };
+		B78D9BDF45CAC6875D42710B8F51C4F1 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = fr_CA.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		B8D4E67E0B5C221E2EB4AD5D5A4D3FAC /* default_marker.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = default_marker.png; sourceTree = "<group>"; };
+		B9A040B510FE63ABE3802A2634BFBE08 /* NSMutableArray+Desc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Desc.h"; sourceTree = "<group>"; };
+		BA00428E484C6DE3D0CF07C09051275E /* GeoFenceBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GeoFenceBean.h; sourceTree = "<group>"; };
+		BA6CDCB2CD4B12093AF27F44EEE83E4A /* Pods-UmeoxCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UmeoxCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDCDE5E69F1E18C8BD228FEBB8A7FEB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE6FACE9AE4C739FB3F160767806D3B9 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = hi.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		BE8465F80EA2A86721DC54A691004791 /* SOSNumberBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SOSNumberBean.h; sourceTree = "<group>"; };
+		BF54B618DB9B29A3A60084C80919337D /* WRoundButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WRoundButton.h; sourceTree = "<group>"; };
+		C03A682655E7DED0AD465EB2D3FA3B6D /* StretchableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StretchableButton.h; sourceTree = "<group>"; };
+		C21B4A26AF30D90EEC85B2FF896B0437 /* Pods-UmeoxCommon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UmeoxCommon_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C36CA8347AFF7219F171458194B49C3C /* ic_closed_place_waypoint_alert_night_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_closed_place_waypoint_alert_night_32pt@2x.png"; sourceTree = "<group>"; };
+		C36F052C20D8B07F9D00610CC91B841F /* PLResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLResultSet.h; sourceTree = "<group>"; };
+		C42A32D89A4180A83790546E4D5BA0E9 /* PLSqliteResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLSqliteResultSet.h; sourceTree = "<group>"; };
+		C4A2B057B391D9544B5F5AFE2DF47A8A /* PLDatabaseMigrationVersionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLDatabaseMigrationVersionManager.h; sourceTree = "<group>"; };
+		C629ED668831BF8074DC330665BD2291 /* default_marker@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "default_marker@2x.png"; sourceTree = "<group>"; };
+		C77623FF9C4B90CC80C14F92FB5E3991 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78E3AAB2D1206F3E6A9597866592906 /* Pods-UmeoxCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UmeoxCommon_Tests-dummy.m"; sourceTree = "<group>"; };
+		CAB8FF5CE3E45991A4EA0060794045D5 /* myView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		CBD2EBF6E37C8E8FFEF7B6A4BD449A0E /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = en.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		CC19B72F9FD92D59F19A45FFCE9A8324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = UmeoxCommon/Classes/UmeoxCommon.framework/Info.plist; sourceTree = "<group>"; };
+		CC9F0CF0E732F5D03A92C3838E2AE34A /* UserDataInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDataInformation.h; sourceTree = "<group>"; };
+		CE8512450B7C0CADA89ECBA1DC43260B /* Pods-UmeoxCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UmeoxCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE9032ACF77C5BCA2B9D2979A282ABF6 /* ic_location_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_location_off@2x.png"; sourceTree = "<group>"; };
+		CF42D6BCB272F548755DEAF906C00659 /* NSDate+convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
+		CFDB2E1A5977662929A4EEABAF8AD0C9 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = uk.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		D0BEDA646F0067EF7630E8ACFB5261E2 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = id.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		D0E9ACB21375FA684520B110680A8940 /* ic_covid_medical_waypoint_alert_night_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_medical_waypoint_alert_night_32pt@3x.png"; sourceTree = "<group>"; };
+		D2110F2B7D5BA7B9DF9B786D9BA15254 /* AlertTypeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertTypeTableViewCell.h; sourceTree = "<group>"; };
+		D283924B92A2DA7CAC92D2C1B52188D9 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		D4F48F5599387D0E987F22456ECF8759 /* PLSqliteMigrationVersionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLSqliteMigrationVersionManager.h; sourceTree = "<group>"; };
+		D66F5845A213F8BF0CE017A7368C392B /* UIButton+backgroundColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+backgroundColor.h"; sourceTree = "<group>"; };
+		D924C954D2EFEE3487D52DEAD3BC0191 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = en_AU.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		DD51480E663472EBAB4242E4F4254665 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE42B0C2FCE312C81A19E40225838608 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		DF365430D5BB3527A23E4ED1340EDB74 /* CustomSetSortView.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = CustomSetSortView.nib; path = UmeoxCommon/Classes/UmeoxCommon.framework/CustomSetSortView.nib; sourceTree = "<group>"; };
+		DF79A8BF3D13D80EBD58B0186CED2E9B /* VersionInfo.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = VersionInfo.plist; sourceTree = "<group>"; };
+		DFD2CBC6435ADC26769460BA26B91F8F /* WRelationAvatar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WRelationAvatar.h; sourceTree = "<group>"; };
+		E00BD8B8188E3C02793C5317F4E60DF1 /* UIImageView+ZY_setImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZY_setImage.h"; sourceTree = "<group>"; };
+		E030CAB7E80E0F6842A8A7BCD1623AAC /* WTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTextField.h; sourceTree = "<group>"; };
+		E255D4EBD3FDCF5134C3AA795FA2DD73 /* UIView+convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+convenience.h"; sourceTree = "<group>"; };
+		E357155C4F16AFD988C7EF5A83018EB6 /* ic_location_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_location_off@3x.png"; sourceTree = "<group>"; };
+		E4119A7036527DE7A6A2CC2A0D7B6D91 /* ic_covid_checkpoint_waypoint_alert_night_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_checkpoint_waypoint_alert_night_32pt@3x.png"; sourceTree = "<group>"; };
+		E428E291F0D2556EC34991DBC7D944A5 /* ic_closed_place_waypoint_alert_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_closed_place_waypoint_alert_32pt@2x.png"; sourceTree = "<group>"; };
+		E44E9362077801970E13B63E6A6CA276 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = vi.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		E4AA8B8463EF7CEF9BCD31F0F57D7BBE /* Pods-UmeoxCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UmeoxCommon_Tests.modulemap"; sourceTree = "<group>"; };
+		E544A78DA39E97BE813B382FC5D2DA9B /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = zh_TW.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		E68C310DB10188601F04A40A13F7EF17 /* PushMsgData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PushMsgData.h; sourceTree = "<group>"; };
+		E7A43959FAD4A82C0901436A3C3204E0 /* bubble_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bubble_right.png; sourceTree = "<group>"; };
+		E84EBA895FD86541E190340B13789168 /* CapsuleDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CapsuleDB.h; sourceTree = "<group>"; };
+		EA274DD331A156E89BA13D8972C402F3 /* NSNetURLG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSNetURLG.h; sourceTree = "<group>"; };
+		EA9B65E529117D87C2E9401F9B982328 /* RectCoverView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RectCoverView.h; sourceTree = "<group>"; };
+		ECCEF5FA12C8AC41345D22FA002AF9FE /* UmeoxCommon */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = UmeoxCommon; path = UmeoxCommon/Classes/UmeoxCommon.framework/UmeoxCommon; sourceTree = "<group>"; };
+		EF068F496AA04101796110DD4B429EE0 /* NSLocalURLG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSLocalURLG.h; sourceTree = "<group>"; };
+		EF4B7B899F1D26F2A3C9FEDA5B51A418 /* button_compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "button_compass@2x.png"; sourceTree = "<group>"; };
+		F1278D818210F6B918B1F8CE19C9DA17 /* NSObject+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Validate.h"; sourceTree = "<group>"; };
+		F17FC368772A609F720D8B1522EC928F /* ic_covid_medical_waypoint_alert_32pt@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_medical_waypoint_alert_32pt@2x.png"; sourceTree = "<group>"; };
+		F2DE8E3D7E5846E25845A9B6B9E04ACB /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = es_419.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		F320CB53D1873E0419E0AB62D68232DE /* ic_covid_checkpoint_waypoint_alert_32pt@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_covid_checkpoint_waypoint_alert_32pt@3x.png"; sourceTree = "<group>"; };
+		F32D5836F94CAD5DE99890E21FFC9611 /* UmeoxCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UmeoxCommon-Info.plist"; sourceTree = "<group>"; };
+		F39514486902183E44F55D4D786B7997 /* PositionExtract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PositionExtract.h; sourceTree = "<group>"; };
+		F4E288FF20368F59F0B930283B15ED00 /* ic_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_error@2x.png"; sourceTree = "<group>"; };
+		F54E893AC3B277DEEB46FAA46F386771 /* RoundImgTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RoundImgTableViewCell.h; sourceTree = "<group>"; };
+		F65AC1F25E5B078525DCD4ADF6EF11CA /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		F65DAC48969314316E1264D225C00E3C /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = lt.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		F6D2ED6817D2CE2062A8986EFFFCA128 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = el.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		F7E78B2B8DAF3539866FB2773042CC23 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = pt_PT.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		F834CFDA168E0A79EE41436639BB8140 /* KGTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KGTMBase64.h; sourceTree = "<group>"; };
+		F8D56479866BBD95CD14EE373B339C1E /* UmeoxCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UmeoxCommon-prefix.pch"; sourceTree = "<group>"; };
+		FA46F925C6D060D2C5B2222272430530 /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = ms.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		FB5C80DD1194D75ACBFE38E4C068C5CC /* WXB2Position.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXB2Position.h; sourceTree = "<group>"; };
+		FBBB2A78F0CD5B69930CFD3522027FDB /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = my.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		FC68EE6301D7ABB88F0936645BA644C1 /* Pods_UmeoxCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmeoxCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB6C0CF041874FACF6F9EA1F473B36C /* GMSCore.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = GMSCore.strings; path = pl.lproj/GMSCore.strings; sourceTree = "<group>"; };
+		FE862BDB4A8DF49E842A6BB35800740A /* ic_compass_needle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_compass_needle.png; sourceTree = "<group>"; };
+		FEDA4476C00013B1B0AF1E54E5E49D8E /* Pods_UmeoxCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmeoxCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324B174688EF182965EBA6B19F129D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AECAE5C5EDADD5931372B68DA828AEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6942786D6DC99F646A21E5DF67050C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1B1EBA655C6AE223C63DFEE09CF5A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E930A81A0A2F86A644B77DD026F697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DC899CEDE5A0A0DFC5914F03A3C173 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EFC26543B959E5BC38E2D65DB0249D /* Pods-UmeoxCommon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4AA8B8463EF7CEF9BCD31F0F57D7BBE /* Pods-UmeoxCommon_Tests.modulemap */,
+				BA6CDCB2CD4B12093AF27F44EEE83E4A /* Pods-UmeoxCommon_Tests-acknowledgements.markdown */,
+				66C779C0606255B701D822F0FE6B9283 /* Pods-UmeoxCommon_Tests-acknowledgements.plist */,
+				C78E3AAB2D1206F3E6A9597866592906 /* Pods-UmeoxCommon_Tests-dummy.m */,
+				A39A66A678640A012A9D0E6F1C501A5C /* Pods-UmeoxCommon_Tests-Info.plist */,
+				A76B2619B3D696FB41C822C8BFB888F6 /* Pods-UmeoxCommon_Tests-umbrella.h */,
+				81A2AA57D4EF5FD8A62329673CFE477B /* Pods-UmeoxCommon_Tests.debug.xcconfig */,
+				971795BC7017A211B202C67E39461355 /* Pods-UmeoxCommon_Tests.release.xcconfig */,
+			);
+			name = "Pods-UmeoxCommon_Tests";
+			path = "Target Support Files/Pods-UmeoxCommon_Tests";
+			sourceTree = "<group>";
+		};
+		1AF1B39DC78C1EAA9C0CF03E95CB0AB9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7972BA4E595E686399E3158BD34D4BB2 /* LICENSE */,
+				BDCDE5E69F1E18C8BD228FEBB8A7FEB1 /* README.md */,
+				0DB956F643BB7688C3DB6C52C2BDB314 /* UmeoxCommon.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		228A0A27F131D4A078934B5FB1DA88AA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F65AC1F25E5B078525DCD4ADF6EF11CA /* module.modulemap */,
+			);
+			name = Modules;
+			path = UmeoxCommon/Classes/UmeoxCommon.framework/Modules;
+			sourceTree = "<group>";
+		};
+		22C5627B1462AE1C813E3BC34F8DAAC0 /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				B777AFD2F5268CB2F8D38577EEFD6075 /* CodeResources */,
+			);
+			name = _CodeSignature;
+			path = UmeoxCommon/Classes/UmeoxCommon.framework/_CodeSignature;
+			sourceTree = "<group>";
+		};
+		47AD64A5C1913F0B06E0323823417BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDA4476C00013B1B0AF1E54E5E49D8E /* Pods_UmeoxCommon_Example.framework */,
+				FC68EE6301D7ABB88F0936645BA644C1 /* Pods_UmeoxCommon_Tests.framework */,
+				A4C85C122746CAF55F72C42718BCB944 /* UmeoxCommon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F90E85363B0CB9A32158A2C1A1802D /* Pods-UmeoxCommon_Example */ = {
+			isa = PBXGroup;
+			children = (
+				09955090CA15B734A0B405A80C385C1A /* Pods-UmeoxCommon_Example.modulemap */,
+				5A91891FED0D526378D81B409C7BFEAA /* Pods-UmeoxCommon_Example-acknowledgements.markdown */,
+				3C2C3C53836589C167D410C19AE1E7AE /* Pods-UmeoxCommon_Example-acknowledgements.plist */,
+				A8E822DA16ED5183B17F4E8BD8AE2D8C /* Pods-UmeoxCommon_Example-dummy.m */,
+				C21B4A26AF30D90EEC85B2FF896B0437 /* Pods-UmeoxCommon_Example-frameworks.sh */,
+				3A93052CC0E0746B483D8E9C051BEF65 /* Pods-UmeoxCommon_Example-Info.plist */,
+				78ABF437DBECAF1CD7DFB2F5CCD06CAB /* Pods-UmeoxCommon_Example-umbrella.h */,
+				4B33A8C98590FD8E90A6E007D014B35F /* Pods-UmeoxCommon_Example.debug.xcconfig */,
+				CE8512450B7C0CADA89ECBA1DC43260B /* Pods-UmeoxCommon_Example.release.xcconfig */,
+			);
+			name = "Pods-UmeoxCommon_Example";
+			path = "Target Support Files/Pods-UmeoxCommon_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5834479264FA44A3E1D516B9FD987BD8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73BBA5EC3869C83D147B76A5B46E01BE /* UmeoxCommon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		58701C910ED7C23332305A6AC0E7528C /* GMSCacheStorage.momd */ = {
+			isa = PBXGroup;
+			children = (
+				0E6B22682F391C82131496E2FE12EB09 /* Storage.mom */,
+				88D35C98C9109B312857FCCE9FC58E68 /* StorageWithTileProto.mom */,
+				B4595F15C6D53F2E01BA34D2DA809BDB /* StorageWithTileVersionID.mom */,
+				DF79A8BF3D13D80EBD58B0186CED2E9B /* VersionInfo.plist */,
+			);
+			path = GMSCacheStorage.momd;
+			sourceTree = "<group>";
+		};
+		5CB3A9E7D671E38340A5E07E293DC953 /* GMSCoreResources.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				3CCBA96E37EC17735597BE3BF20A2D5F /* Assets.car */,
+				76E85868A82E7B2A4AA63073EA0F2EB9 /* button_background.png */,
+				274E554F0F2FA1DB2D0AABDE06E79EB7 /* button_background@2x.png */,
+				3EE0DF9938F7D30B071F4F92B035CC19 /* button_background@3x.png */,
+				11504528D66515A9B1897E4CB902B056 /* button_compass.png */,
+				EF4B7B899F1D26F2A3C9FEDA5B51A418 /* button_compass@2x.png */,
+				7502BE61C6D426374BBC380BEEFDD506 /* button_compass_night.png */,
+				A452DA228A5A319A4A9810E9C5CC13FE /* button_compass_night@2x.png */,
+				08F3C6771379A3F23894016591C3091E /* button_my_location.png */,
+				6220CAEF52C6C3F89D6BEA370A821664 /* button_my_location@2x.png */,
+				A5FEFCA74ED86C7C82D1A02CCDFDFEE1 /* dav_one_way_16_256.png */,
+				72293A64026A216C99E952566A3D952C /* DroidSansMerged-Regular.ttf */,
+				9F8B62334CE19FB8397EF7DC8EC42A42 /* GMSCore.strings */,
+				75749E8A4F5BCB960DDA7FFC21391A67 /* GMSNavNightModeSprites-0-1x.png */,
+				3EB76D6DC561CD3C1A4C201AB972F37D /* GMSNavNightModeSprites-0-2x.png */,
+				A65F67EB49E10D55A6DC7780B043C9E5 /* GMSNavNightModeSprites-0-3x.png */,
+				4F864F48C995D4B02297BE01E575F37C /* GMSNavSprites-0-1x.png */,
+				044E1CA8230A8BED6064FBCEEA134688 /* GMSNavSprites-0-2x.png */,
+				0E55CC43C94A04D3D8071B7AD18A0424 /* GMSNavSprites-0-3x.png */,
+				3D9E8A0BB879DD2AA0990AB241B1CBF5 /* GMSSprites-0-1x.png */,
+				7461C03B8B90B9CBA33A5F3C7FDF5F39 /* GMSSprites-0-2x.png */,
+				6655820E4D9C0A85BBEC238E09A12B6E /* GMSSprites-0-3x.png */,
+				80A720D593DC66D77E934FD3D2075565 /* ic_closed_place_waypoint_alert_32pt.png */,
+				E428E291F0D2556EC34991DBC7D944A5 /* ic_closed_place_waypoint_alert_32pt@2x.png */,
+				4D4F5491FE055621968142B1E91C316B /* ic_closed_place_waypoint_alert_32pt@3x.png */,
+				93A36707131103F1B9752234AABE3E90 /* ic_closed_place_waypoint_alert_night_32pt.png */,
+				C36CA8347AFF7219F171458194B49C3C /* ic_closed_place_waypoint_alert_night_32pt@2x.png */,
+				238D959627674BC52DE57431D5BC381C /* ic_closed_place_waypoint_alert_night_32pt@3x.png */,
+				FE862BDB4A8DF49E842A6BB35800740A /* ic_compass_needle.png */,
+				9D70D2D4864F80AB8C147214DBCE6E89 /* ic_compass_needle@2x.png */,
+				A8FED114F7B91BE7AFF95CE3AE2CB7E5 /* ic_compass_needle_32pt.png */,
+				5B552E1AF64812575FF2553A93F3847A /* ic_compass_needle_32pt@2x.png */,
+				3EA0CB3EEFE7D9E3AA9C4FB5615875FF /* ic_compass_needle_32pt@3x.png */,
+				56159AD59AA00E2B8356D048D9D94C9D /* ic_compass_needle_large.png */,
+				81F99C7DFBA818A8AE341EA03A221003 /* ic_compass_needle_large@2x.png */,
+				0BC969326D7BFD2E175925E63A68EF16 /* ic_compass_needle_large@3x.png */,
+				9C92E4854B92F919BFE60B9A409DCF57 /* ic_covid_border_waypoint_alert_32pt.png */,
+				8BF55F1C10510832B5EE6C433E563499 /* ic_covid_border_waypoint_alert_32pt@2x.png */,
+				27FCBA5E501D5ADA6B2E46F320CFE5C6 /* ic_covid_border_waypoint_alert_32pt@3x.png */,
+				562CEF01C93D89A6F86520A387FD2168 /* ic_covid_checkpoint_waypoint_alert_32pt.png */,
+				940D0928BAF023E0DD8E2F1CFFDD236D /* ic_covid_checkpoint_waypoint_alert_32pt@2x.png */,
+				F320CB53D1873E0419E0AB62D68232DE /* ic_covid_checkpoint_waypoint_alert_32pt@3x.png */,
+				125AE4ED5BF85CCA0D5DFD78E7A95472 /* ic_covid_checkpoint_waypoint_alert_night_32pt.png */,
+				91ADA3D497DAC089A8CAA5700FD5F1FA /* ic_covid_checkpoint_waypoint_alert_night_32pt@2x.png */,
+				E4119A7036527DE7A6A2CC2A0D7B6D91 /* ic_covid_checkpoint_waypoint_alert_night_32pt@3x.png */,
+				84278137807C800EAADA82FE7EDD2F26 /* ic_covid_medical_waypoint_alert_32pt.png */,
+				F17FC368772A609F720D8B1522EC928F /* ic_covid_medical_waypoint_alert_32pt@2x.png */,
+				656DFF54703D7D2EEBDEB531ADB7F663 /* ic_covid_medical_waypoint_alert_32pt@3x.png */,
+				36120528087C6BA1B11538164136D6FF /* ic_covid_medical_waypoint_alert_night_32pt.png */,
+				39CF39202B1E726243B8BCCC7C6F7001 /* ic_covid_medical_waypoint_alert_night_32pt@2x.png */,
+				D0E9ACB21375FA684520B110680A8940 /* ic_covid_medical_waypoint_alert_night_32pt@3x.png */,
+				5D9B74AADF49A6F98F1ADC5792849D63 /* ic_location_off.png */,
+				CE9032ACF77C5BCA2B9D2979A282ABF6 /* ic_location_off@2x.png */,
+				E357155C4F16AFD988C7EF5A83018EB6 /* ic_location_off@3x.png */,
+				803C5C2B1770DC788AD489C7D3182F60 /* ic_qu_direction_mylocation.png */,
+				04009A6BB444BF31A34737751252A300 /* ic_qu_direction_mylocation@2x.png */,
+				851A5E7ABA093A5A41E9F41A9B4F65D3 /* ic_qu_direction_mylocation@3x.png */,
+				DD51480E663472EBAB4242E4F4254665 /* Info.plist */,
+				2377E0C82FC1C89FCDCD93D76BE7A487 /* polyline_colors_texture.png */,
+				2CE2660F1FD9E6F7B6987951F5539E6C /* polyline_colors_texture_dim.png */,
+				6A4371C0C55493F1F863034287BDD291 /* road_1-1.png */,
+				A24246B3C8F390E77040F7AF66F5F561 /* road_128-32.png */,
+				37090CA30B066AB96C0576A31E29DA13 /* road_16-4.png */,
+				65B29535C7A9D558428304DE5C48EF95 /* road_2-1.png */,
+				AE0C0E898F7D4305E6F84F582C74B5B6 /* road_256-64.png */,
+				A2150E8EF84AD69F7B1B35673EB68FE3 /* road_32-8.png */,
+				01FA2AF9A2F6660780A42F2B72D7BB0E /* road_4-1.png */,
+				64E6C159C5B1DA955B0E0B127DC93E13 /* road_64-16.png */,
+				558DE8C8F3EDAF9DF1A8DBA6402E4D29 /* road_8-2.png */,
+				27D129EA1088373EA3B1ADF91033F1EA /* Tharlon-Regular.ttf */,
+			);
+			path = GMSCoreResources.bundle;
+			sourceTree = "<group>";
+		};
+		5D95F3D395A927C3D7466DB453BA15E3 /* GoogleMaps.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A1D4CF383A4F6EEBA816BF8F7FDCC0A2 /* bubble_left.png */,
+				5203BF46E29CEB679DED358F0FF74336 /* bubble_left@2x.png */,
+				1D8304C2D1F280403AB8DA6F6D22B1E1 /* bubble_left@3x.png */,
+				E7A43959FAD4A82C0901436A3C3204E0 /* bubble_right.png */,
+				5C04D204ED433BAF3A393DB312F84C0F /* bubble_right@2x.png */,
+				310F44F387399BBEE308A362DF211933 /* bubble_right@3x.png */,
+				B8D4E67E0B5C221E2EB4AD5D5A4D3FAC /* default_marker.png */,
+				C629ED668831BF8074DC330665BD2291 /* default_marker@2x.png */,
+				1E90D653F00D146FA825B8E98A14F47D /* default_marker@3x.png */,
+				1A3E83E176D5C658C2DE11865B47B096 /* ic_error.png */,
+				F4E288FF20368F59F0B930283B15ED00 /* ic_error@2x.png */,
+				9E39C67724F978912397B574918EA6D9 /* ic_error@3x.png */,
+				C77623FF9C4B90CC80C14F92FB5E3991 /* Info.plist */,
+				AF57C74B0A98A99B11BC675443C45C7B /* oss_licenses_maps.txt.gz */,
+				58701C910ED7C23332305A6AC0E7528C /* GMSCacheStorage.momd */,
+				5CB3A9E7D671E38340A5E07E293DC953 /* GMSCoreResources.bundle */,
+			);
+			name = GoogleMaps.bundle;
+			path = UmeoxCommon/Classes/UmeoxCommon.framework/GoogleMaps.bundle;
+			sourceTree = "<group>";
+		};
+		73BBA5EC3869C83D147B76A5B46E01BE /* UmeoxCommon */ = {
+			isa = PBXGroup;
+			children = (
+				813E9B8F0FA8ADEBF2F83D4B9C6532D6 /* AlertTypeTableViewCell.nib */,
+				81025A3D2A57EBEBE874B84CB413912A /* CustomDetailViewCell.nib */,
+				DF365430D5BB3527A23E4ED1340EDB74 /* CustomSetSortView.nib */,
+				9340F0D793CCAC9D0BA7A58819A1D991 /* CustomSosNumberCell.nib */,
+				CC19B72F9FD92D59F19A45FFCE9A8324 /* Info.plist */,
+				713D3123893006F81AF6BACE85CABB86 /* myView.nib */,
+				4CD420A1391E124E06EA2CAF35960A7D /* RoundImgTableViewCell.nib */,
+				8583BEEAEEF991ECC1E40105E4BB4E62 /* TraceLineTableViewCell.nib */,
+				ECCEF5FA12C8AC41345D22FA002AF9FE /* UmeoxCommon */,
+				18EB097C92BC0F279984342AF3198E14 /* WCommonWebViewController.nib */,
+				22C5627B1462AE1C813E3BC34F8DAAC0 /* _CodeSignature */,
+				5D95F3D395A927C3D7466DB453BA15E3 /* GoogleMaps.bundle */,
+				C427573DA7710A71212E17EDAAA5550A /* Headers */,
+				228A0A27F131D4A078934B5FB1DA88AA /* Modules */,
+				1AF1B39DC78C1EAA9C0CF03E95CB0AB9 /* Pod */,
+				D4F382574C7700CC9225A3639AF6C98B /* Support Files */,
+			);
+			name = UmeoxCommon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8767C47812E1123D3B4849CAE10B0EAF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F90E85363B0CB9A32158A2C1A1802D /* Pods-UmeoxCommon_Example */,
+				18EFC26543B959E5BC38E2D65DB0249D /* Pods-UmeoxCommon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C427573DA7710A71212E17EDAAA5550A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D2110F2B7D5BA7B9DF9B786D9BA15254 /* AlertTypeTableViewCell.h */,
+				1DD2261F667FF9950DBD26262CF0255E /* amrFileCodec.h */,
+				AD9F978FFE99C0CDEF7EA5B6AFA76023 /* AppData.h */,
+				A7A00E0BE961819F079C161297F8C331 /* BTUser.h */,
+				E84EBA895FD86541E190340B13789168 /* CapsuleDB.h */,
+				9476DFF93ED2D76476ED956BF289D74A /* CapsuleUtils.h */,
+				B364AD0772094C51888859630E28DFEA /* clockmodel.h */,
+				35B1937B884F366EDFF822D3B9C49404 /* ColorHelper.h */,
+				348350469AB2C7B1AB6224AC420C1B92 /* ConstVal.h */,
+				AE17679DB5AFC537902104E9ED57B7C5 /* CustomAlertView.h */,
+				07EA6B1C254DC87F02E997A0BDEDC431 /* CustomDetailViewCell.h */,
+				0C0A3B502E46DD8B7321970645EFA1E5 /* CustomGMSMarker.h */,
+				0EC0291B5F4BA9798E25C09AE467B702 /* CustomSetSortView.h */,
+				625B3A06F7ECB18A83CF7A8FE97A23FD /* CustomSosNumberCell.h */,
+				500D81BFE43A4AD975CB032B1BD3B223 /* dec_if.h */,
+				4699B0DA6E827420F0E57EC2C7DB8B9B /* DES.h */,
+				66649E81FFF1C72A824A87D12A3698C0 /* GCDiscreetNotificationView.h */,
+				BA00428E484C6DE3D0CF07C09051275E /* GeoFenceBean.h */,
+				0F1D005D992EA82FB50173A6D5BC51B0 /* GTMDefines.h */,
+				00A088398FA632AFE18BE8B7E907E4BE /* HolderBean.h */,
+				565B7153F0C0F266EBE2EE84DDF0A040 /* HolderDetailBean.h */,
+				68E4C1D50C6A16BE8568E211347F2FAF /* HolderPostionBean.h */,
+				2D48AECCC55CD0E58909F98A40BAB938 /* HomeCustomButton.h */,
+				DE42B0C2FCE312C81A19E40225838608 /* if_rom.h */,
+				D283924B92A2DA7CAC92D2C1B52188D9 /* interf_dec.h */,
+				0F74A65DA88EE723BE9257ABAB08DEB8 /* interf_enc.h */,
+				42067C0645A952334EA33CD971A9A501 /* JsonParseUtils.h */,
+				8A12C170F2D5A6FF4F9B9D5D81843605 /* K3StyleTextField.h */,
+				F834CFDA168E0A79EE41436639BB8140 /* KGTMBase64.h */,
+				8EF26603844C6D5CBDD4912DE2094FEF /* KMoveView.h */,
+				9C9091BE926E884DA38A55D5E881AFBD /* MD5Tool.h */,
+				7B80B72990E64622DB618A2B882BB8DD /* MemberBean.h */,
+				CAB8FF5CE3E45991A4EA0060794045D5 /* myView.h */,
+				511CAF55B8F6F3A50CC738C45AB43091 /* NewClassTimeModel.h */,
+				A0CBAE36AE296E14790B5B5797D1F0AC /* NSData+Base64.h */,
+				CF42D6BCB272F548755DEAF906C00659 /* NSDate+convenience.h */,
+				63DD08DB55317BB42D56871D568C1ACF /* NSFileManager+Tool.h */,
+				EF068F496AA04101796110DD4B429EE0 /* NSLocalURLG.h */,
+				31974DA8770C67C947B14EB51E88AF82 /* NSMutableArray+convenience.h */,
+				B9A040B510FE63ABE3802A2634BFBE08 /* NSMutableArray+Desc.h */,
+				EA274DD331A156E89BA13D8972C402F3 /* NSNetURLG.h */,
+				3AF54C2F6798B72C8E1B4FD6979B4004 /* NSObject+Json.h */,
+				F1278D818210F6B918B1F8CE19C9DA17 /* NSObject+Validate.h */,
+				998DA60A59B2A6F2145FF7C52362710D /* NSString+Base64.h */,
+				87F7843476EB5B3B7E328AD66065B73B /* NSString+Json.h */,
+				0FCA594A941F1989B346DECE971D5A1B /* NSString+SubString.h */,
+				3F1616C3B6A02DE8A4449AAE0B85F555 /* NSURLContext.h */,
+				29C3FF525BEC65387EA8164C051ED2AE /* NSURLGenerate.h */,
+				98A68B669A5D44C8BDAE7B44701F8FEE /* PlausibleDatabase.h */,
+				5DFC042FCC8ED7CC24AF237FA603A3B2 /* PLDatabase.h */,
+				44702B7218998790A3623C6BB62E3D45 /* PLDatabaseConnectionProvider.h */,
+				91E4B39D7C57E43AD85A4A25581077A5 /* PLDatabaseMigrationDelegate.h */,
+				AF6DA0BA034F05C0C5E311F7FB39D43B /* PLDatabaseMigrationManager.h */,
+				092FD04C41992CB2ECB2EDC1B8232E52 /* PLDatabaseMigrationTransactionManager.h */,
+				C4A2B057B391D9544B5F5AFE2DF47A8A /* PLDatabaseMigrationVersionManager.h */,
+				95D62A504428B83347942457E4639105 /* PlistHelper.h */,
+				2548875674FEEE92E9D237C4B9323A85 /* PLPreparedStatement.h */,
+				C36F052C20D8B07F9D00610CC91B841F /* PLResultSet.h */,
+				A9D39A70DE4884CFC100587FDDCDCA92 /* PLSqliteConnectionProvider.h */,
+				1F5980C676D53285E5D9ED4D0D81ED6E /* PLSqliteDatabase.h */,
+				810E88EC68F45928CDF869ABA2AB2395 /* PLSqliteDatabase+Object.h */,
+				D4F48F5599387D0E987F22456ECF8759 /* PLSqliteMigrationVersionManager.h */,
+				27B90B9F35E7C84E7BC9E108547559B8 /* PLSqlitePreparedStatement.h */,
+				C42A32D89A4180A83790546E4D5BA0E9 /* PLSqliteResultSet.h */,
+				F39514486902183E44F55D4D786B7997 /* PositionExtract.h */,
+				1ED56EF5254A9AA97D526AD589EA9F90 /* PrefixHeader.pch */,
+				B72575A1A6D650E5078E007277E5A8C6 /* ProgressDialog.h */,
+				6373B1750044A768A991FFF021740AE8 /* PushMsgBean.h */,
+				E68C310DB10188601F04A40A13F7EF17 /* PushMsgData.h */,
+				EA9B65E529117D87C2E9401F9B982328 /* RectCoverView.h */,
+				9ECA40F7EA36A615C4D6FC6153502BA2 /* RightMenuHolderCell.h */,
+				74BC6009D232A9D5F46E5BE3F7DE92CD /* RootViewController.h */,
+				F54E893AC3B277DEEB46FAA46F386771 /* RoundImgTableViewCell.h */,
+				BE8465F80EA2A86721DC54A691004791 /* SOSNumberBean.h */,
+				C03A682655E7DED0AD465EB2D3FA3B6D /* StretchableButton.h */,
+				187766C0422E505F1407B941A81927CB /* StretchableImageView.h */,
+				681798484E404D80A329F09D81061BC3 /* SystemMsgBean.h */,
+				6BC4B431A777FFB90708945F53EC4593 /* Tooles.h */,
+				83E920993AA5D6BCA0C9C621DD223192 /* TraceLineTableViewCell.h */,
+				D66F5845A213F8BF0CE017A7368C392B /* UIButton+backgroundColor.h */,
+				0CB198DDEB4D65E659760F6DE17D00C8 /* UIColor+expanded.h */,
+				0FD2443123362259E1CAA8BE7F0E1FB1 /* UIDatePickerAlertView.h */,
+				E00BD8B8188E3C02793C5317F4E60DF1 /* UIImageView+ZY_setImage.h */,
+				935D4F610ECC29D2406FC0FE66B1D7C1 /* UITextField+ChangePlaceholderColor.h */,
+				7266192ABEF0579359312CEA1853A32D /* UIView+ChangeFrame.h */,
+				E255D4EBD3FDCF5134C3AA795FA2DD73 /* UIView+convenience.h */,
+				67F944B8C1EBB8183294063874D33B23 /* UIView+Toast.h */,
+				49BC2DCCA7F250034C0A1775802C7C19 /* UIViewController+GCDiscreetNotificationView.h */,
+				00E97F26491B9429F4549A95E0E2F4A4 /* UmeoxCommon.h */,
+				23025C87C6C42BB056FEA1D92229D5D4 /* UrlBean.h */,
+				CC9F0CF0E732F5D03A92C3838E2AE34A /* UserDataInformation.h */,
+				5B14B513D2FE9381444DA7BE41F69783 /* UtilsDefine.h */,
+				37D65152FD550FDB718924C6A4F1BE09 /* UtilVoice.h */,
+				906AEC9F7C3246C08A59FB8234D2A9EA /* VoiceConverter.h */,
+				020724AA49167684896C03B21C775E28 /* wav.h */,
+				6E9BA136ADAA6AC6DB7CF1DC4C295C57 /* WCGuideScrollView.h */,
+				6B258D3959A37DA8A9111F5231E5DE42 /* WChatMessage.h */,
+				A537CFCE104100EB57F8285AD56387C1 /* WCommonWebViewController.h */,
+				75AFBB1815C80C33E870C47731267FBF /* WGenerateMessage.h */,
+				9164A97CC97F2F979D9DD69063920C4A /* WPickerView.h */,
+				DFD2CBC6435ADC26769460BA26B91F8F /* WRelationAvatar.h */,
+				BF54B618DB9B29A3A60084C80919337D /* WRoundButton.h */,
+				E030CAB7E80E0F6842A8A7BCD1623AAC /* WTextField.h */,
+				FB5C80DD1194D75ACBFE38E4C068C5CC /* WXB2Position.h */,
+				63E802B6D2EF9CC5157D01E7CA1D63FB /* ZYTextField.h */,
+			);
+			name = Headers;
+			path = UmeoxCommon/Classes/UmeoxCommon.framework/Headers;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5834479264FA44A3E1D516B9FD987BD8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47AD64A5C1913F0B06E0323823417BF4 /* Products */,
+				8767C47812E1123D3B4849CAE10B0EAF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F382574C7700CC9225A3639AF6C98B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24BEB418F4667F950914AC9BC2F9925 /* UmeoxCommon.modulemap */,
+				AAA663E9E99AB5567853BB3640743C9F /* UmeoxCommon-dummy.m */,
+				F32D5836F94CAD5DE99890E21FFC9611 /* UmeoxCommon-Info.plist */,
+				F8D56479866BBD95CD14EE373B339C1E /* UmeoxCommon-prefix.pch */,
+				3526095EE3C368A67F802A21A2AD193C /* UmeoxCommon-umbrella.h */,
+				8B3A1C5CC6F4F7A1AB5F84A4D3C76849 /* UmeoxCommon.debug.xcconfig */,
+				277BE8713CFBDCB5AF7D380EFDA39DA1 /* UmeoxCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UmeoxCommon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BD1282FC22AD1F255717E1587953C79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A57687F4C4E092725652BD49F8EF64 /* AlertTypeTableViewCell.h in Headers */,
+				21D3C09E29AF7EDF787AF87450E9CBD2 /* amrFileCodec.h in Headers */,
+				A3B29AF15870F5D49D22C88F75E45830 /* AppData.h in Headers */,
+				D10977810ACBCC4CA4C1B1C995241C9D /* BTUser.h in Headers */,
+				223B57E6F31D548512E99976832F163E /* CapsuleDB.h in Headers */,
+				9429C2D4B473835E43A1C6BF418AC39F /* CapsuleUtils.h in Headers */,
+				DD4B1D682A366D5D9CC50E8F8E69DB26 /* clockmodel.h in Headers */,
+				F2793C24DF2F25C3CDF88A22B1655DDF /* ColorHelper.h in Headers */,
+				2A18B7837DE1F867F4B81B8DFF16FA8B /* ConstVal.h in Headers */,
+				E256AF69758E8EAE027703E4910EA9F1 /* CustomAlertView.h in Headers */,
+				C0EA9BC96E4C3555E8E01C480BC10946 /* CustomDetailViewCell.h in Headers */,
+				F48552469A949F6329CB31A67437C41B /* CustomGMSMarker.h in Headers */,
+				26B82B067C1FD95B106DB5EECF03F4E6 /* CustomSetSortView.h in Headers */,
+				AB5391F2B9FE75FFF520B0C2966D6DDD /* CustomSosNumberCell.h in Headers */,
+				BF5BBE685A751FF71393526B2CAEEA12 /* dec_if.h in Headers */,
+				40819FAA56CDA686041624877558DBE8 /* DES.h in Headers */,
+				3B28D52B4C80BBDEFC3C84ACB8F1465C /* GCDiscreetNotificationView.h in Headers */,
+				5B1CB3A54DE0C53FD9DEA5293F7CE7BA /* GeoFenceBean.h in Headers */,
+				378E73F1398FD0736C609CBDCCC79AA2 /* GTMDefines.h in Headers */,
+				E39D9D0CB7F399434E6067F575F2B02E /* HolderBean.h in Headers */,
+				B5000EBA391F346088FCC845D5814392 /* HolderDetailBean.h in Headers */,
+				D8357491604A539F0C5C782169B43664 /* HolderPostionBean.h in Headers */,
+				8E68794FA1B36D110611C40D760B879D /* HomeCustomButton.h in Headers */,
+				0F41BB6D8C16E958744D2E3FA760E569 /* if_rom.h in Headers */,
+				19D39786270A1FC118DA42420EA2F1E6 /* interf_dec.h in Headers */,
+				071B51D0101547447F4FE3F427E86653 /* interf_enc.h in Headers */,
+				FF12E1AA18FB083B030844DE2939DDFF /* JsonParseUtils.h in Headers */,
+				21C869B12DCC12375D0270E40102C3EE /* K3StyleTextField.h in Headers */,
+				39771D5759C923027ED90B3AE86B2488 /* KGTMBase64.h in Headers */,
+				123588DF667041A437FCB17CE5D8A0AE /* KMoveView.h in Headers */,
+				4C5E5098DF008757A2E8E62EDCF647D0 /* MD5Tool.h in Headers */,
+				ED996A5678CAF9F49890FC14FDB70AE9 /* MemberBean.h in Headers */,
+				C3A1FC15BCC892713D6138F4B3605309 /* myView.h in Headers */,
+				87B0830F366BA876A1FD6EA8F44DDDB9 /* NewClassTimeModel.h in Headers */,
+				EA874C80B412220E8864B1DD9F11C647 /* NSData+Base64.h in Headers */,
+				199179B4D65A7BBB2606F6DE41A938E4 /* NSDate+convenience.h in Headers */,
+				322CCFC941CE548C0ECBB75B5127F1FA /* NSFileManager+Tool.h in Headers */,
+				6FD77ECF26D71FBF23A1AD9B65AD6B53 /* NSLocalURLG.h in Headers */,
+				E428FADB37A5A52436511F73B89ECA19 /* NSMutableArray+convenience.h in Headers */,
+				7131161586CF09600F48B70154BEA09E /* NSMutableArray+Desc.h in Headers */,
+				8BC512E8ABE97FB60B19E7A41146B03F /* NSNetURLG.h in Headers */,
+				68EF844FF9458A0C94502B3C5422CA4B /* NSObject+Json.h in Headers */,
+				DC5D4F69F555CC49EB66194063A61748 /* NSObject+Validate.h in Headers */,
+				BDE9A1A123C26887088D15BA4B9ED711 /* NSString+Base64.h in Headers */,
+				7F0B3EF2B68DC44D6B823D6908374F00 /* NSString+Json.h in Headers */,
+				2CE1773552B85A20F2E3150D96FC001E /* NSString+SubString.h in Headers */,
+				ECA12F86C99B1F1F7FD80F0FAEB20D99 /* NSURLContext.h in Headers */,
+				665281CDD1A35AA5F89F71A5378342BB /* NSURLGenerate.h in Headers */,
+				04CF1447FF35AD480DBA1DBCC30F85B7 /* PlausibleDatabase.h in Headers */,
+				69662AD8D6412ADA214F445C9C39B86F /* PLDatabase.h in Headers */,
+				D90677B90E8797F9D513105D1DA78776 /* PLDatabaseConnectionProvider.h in Headers */,
+				790AC38D163C808B8E962E02C731CDB4 /* PLDatabaseMigrationDelegate.h in Headers */,
+				B9FFDABE8FCFFBCC274984C8EEBC69B2 /* PLDatabaseMigrationManager.h in Headers */,
+				07FFCEFCB937C0A997415A2ADD1F794E /* PLDatabaseMigrationTransactionManager.h in Headers */,
+				8789A023B540E0F754FD90B7E384C42B /* PLDatabaseMigrationVersionManager.h in Headers */,
+				C01CF68F69221A41A905071338F824EE /* PlistHelper.h in Headers */,
+				6ED234006881E6D695D483235F002645 /* PLPreparedStatement.h in Headers */,
+				4D595682AC8D2A02445D54EA4BC7AC32 /* PLResultSet.h in Headers */,
+				603069D24027692ABE68A907D278813E /* PLSqliteConnectionProvider.h in Headers */,
+				168DE5B947AB0CADC0794AAD7BBE7DB2 /* PLSqliteDatabase+Object.h in Headers */,
+				17AE85182D28A5E7136C135D85FA0EA7 /* PLSqliteDatabase.h in Headers */,
+				FCF6F85A7D60489684A033BAC7282E46 /* PLSqliteMigrationVersionManager.h in Headers */,
+				3440766B7842DBDE170474B55F18E1D2 /* PLSqlitePreparedStatement.h in Headers */,
+				45AE085A4EAC793BD096E285CE86D2C1 /* PLSqliteResultSet.h in Headers */,
+				13157879639428FC87C0577D0C9EE9D6 /* PositionExtract.h in Headers */,
+				0E6BC1F7C3F555F0DB796AEB53EA1527 /* ProgressDialog.h in Headers */,
+				BB399DEAFA52656716FB74B77A4C1357 /* PushMsgBean.h in Headers */,
+				3760FD0F0B7EF40651C28E7C9899EF40 /* PushMsgData.h in Headers */,
+				F9ED7275E6FAB0062F6164F007A8B170 /* RectCoverView.h in Headers */,
+				17669023B013814044DCD393CE553CBE /* RightMenuHolderCell.h in Headers */,
+				E64A13F6793E6B9CD7731C9FE2C52C7A /* RootViewController.h in Headers */,
+				C059A6232BD09180263A8E330B5B763B /* RoundImgTableViewCell.h in Headers */,
+				77EAB2DB9B6DBF5F5B2E01DAF7AE237C /* SOSNumberBean.h in Headers */,
+				80FC1A87FD6C1CB7488F8956FF0F787D /* StretchableButton.h in Headers */,
+				56A3423BCBB108A10E0569E40A78F523 /* StretchableImageView.h in Headers */,
+				8489070848E3A12D6BBD15F59E443653 /* SystemMsgBean.h in Headers */,
+				3C68561CF82C3F4A16733D295A2D6E7F /* Tooles.h in Headers */,
+				76217D4ED07C2C0B96A7ED143829771D /* TraceLineTableViewCell.h in Headers */,
+				444CDF0B814092ABDB7C3B2419FB4BFF /* UIButton+backgroundColor.h in Headers */,
+				24D3CC95319FA5E0530A921B4F5AC521 /* UIColor+expanded.h in Headers */,
+				13F27BEA0941776330DA8CD9CA004B25 /* UIDatePickerAlertView.h in Headers */,
+				BC81AB17CCD3B192EB6762F26DDFEB6D /* UIImageView+ZY_setImage.h in Headers */,
+				E3791DC707F33D32E7FD362326DF13A1 /* UITextField+ChangePlaceholderColor.h in Headers */,
+				7278DCF39B7AC74BDB61AD849FA77A98 /* UIView+ChangeFrame.h in Headers */,
+				BDE278228290ACF042C71D9F43574C88 /* UIView+convenience.h in Headers */,
+				52EEA790D6076059B887700CAC9B4FD7 /* UIView+Toast.h in Headers */,
+				55268F8B730F5F4C6251E3331D939C9E /* UIViewController+GCDiscreetNotificationView.h in Headers */,
+				7C23A79D91AA63B1AD6A4948FDE524AB /* UmeoxCommon-umbrella.h in Headers */,
+				AD47E2523CE6BC46B4EB953AFA2C629A /* UmeoxCommon.h in Headers */,
+				AF888E4939EB6B0554C103C1D7C787AA /* UrlBean.h in Headers */,
+				9BED38CD1D5301F81DFEB1424C19956B /* UserDataInformation.h in Headers */,
+				D5BCF2AB060D5F63FB43EC893BF4D7E0 /* UtilsDefine.h in Headers */,
+				2EA373245DDF841B5098C29D0FCD9FCF /* UtilVoice.h in Headers */,
+				E675A5564885F27804AA59DDD18EFB1A /* VoiceConverter.h in Headers */,
+				7FB4A2DD907CE2DA5FDDDD09B315F8C9 /* wav.h in Headers */,
+				20158285605069858A5C9795B26D1404 /* WCGuideScrollView.h in Headers */,
+				90518CFC455FE271325779EB7DD30C5A /* WChatMessage.h in Headers */,
+				B9A9565CD1FB08460E6A923994DA2F9F /* WCommonWebViewController.h in Headers */,
+				BEAC5693AD411ACE35D25FA0987A6B7A /* WGenerateMessage.h in Headers */,
+				0C195092337DDDA48A50EF78E451828A /* WPickerView.h in Headers */,
+				0EBAB80AE079EDCF6B66D9344C29657F /* WRelationAvatar.h in Headers */,
+				0805165CDA22345E5FB8154263765D8F /* WRoundButton.h in Headers */,
+				829C08F34F63C61698A06FB751063346 /* WTextField.h in Headers */,
+				760D54C6A2BF544A2EC954B513630EDB /* WXB2Position.h in Headers */,
+				4B79326E766410F9A88931068FC01CA3 /* ZYTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F4EAF955BC2D3F50B986AEBEC1BA1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A957DDB73D9A4337DD3BE57C6880A5 /* Pods-UmeoxCommon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D98304EE2762D0AC2EF559D66C7B65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E330D18CAFDFBF163994420517A8FE0 /* Pods-UmeoxCommon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27D313998E08201381AD46AD0247CB4A /* Pods-UmeoxCommon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623F589CDE89C38A1F73C5F2E9B22890 /* Build configuration list for PBXNativeTarget "Pods-UmeoxCommon_Tests" */;
+			buildPhases = (
+				E4D98304EE2762D0AC2EF559D66C7B65 /* Headers */,
+				5D45AD332E632DB16E0BF889F3545D06 /* Sources */,
+				71E930A81A0A2F86A644B77DD026F697 /* Frameworks */,
+				72B584DB57F181951C3F4996A1FAE371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE53133F833F8221E11626F05B4ADBA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-UmeoxCommon_Tests";
+			productName = "Pods-UmeoxCommon_Tests";
+			productReference = FC68EE6301D7ABB88F0936645BA644C1 /* Pods_UmeoxCommon_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79F5F9B4D662DD5BAB12C25B369CF9C7 /* UmeoxCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91335EF9750DF61557554FEE3D991F7F /* Build configuration list for PBXNativeTarget "UmeoxCommon" */;
+			buildPhases = (
+				6BD1282FC22AD1F255717E1587953C79 /* Headers */,
+				214C2FE4451B18FB34E5B9AEBD22956D /* Sources */,
+				324B174688EF182965EBA6B19F129D94 /* Frameworks */,
+				62383B9F99CB9B6C8414DC5D8D8FEDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UmeoxCommon;
+			productName = UmeoxCommon;
+			productReference = A4C85C122746CAF55F72C42718BCB944 /* UmeoxCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92694069EC47650882226C85F5F7BA0A /* Pods-UmeoxCommon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A672D3E0C944EEDDA109ED84628595A1 /* Build configuration list for PBXNativeTarget "Pods-UmeoxCommon_Example" */;
+			buildPhases = (
+				81F4EAF955BC2D3F50B986AEBEC1BA1A /* Headers */,
+				5AB3876DF0E33900EB66570C5232F021 /* Sources */,
+				6942786D6DC99F646A21E5DF67050C28 /* Frameworks */,
+				BE946429F74E247D4706709B12BB44A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B319C802C6ED892325BA9113B7A646 /* PBXTargetDependency */,
+			);
+			name = "Pods-UmeoxCommon_Example";
+			productName = "Pods-UmeoxCommon_Example";
+			productReference = FEDA4476C00013B1B0AF1E54E5E49D8E /* Pods_UmeoxCommon_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh_TW,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en_AU,
+				en_GB,
+				en_IN,
+				es,
+				es_419,
+				es_MX,
+				fi,
+				fr,
+				fr_CA,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ka,
+				ko,
+				lt,
+				lv,
+				ms,
+				my,
+				nb,
+				nl,
+				pl,
+				pt,
+				pt_BR,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				sq,
+				sr,
+				sv,
+				sw,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_HK,
+				ar,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 47AD64A5C1913F0B06E0323823417BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92694069EC47650882226C85F5F7BA0A /* Pods-UmeoxCommon_Example */,
+				27D313998E08201381AD46AD0247CB4A /* Pods-UmeoxCommon_Tests */,
+				79F5F9B4D662DD5BAB12C25B369CF9C7 /* UmeoxCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62383B9F99CB9B6C8414DC5D8D8FEDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B584DB57F181951C3F4996A1FAE371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE946429F74E247D4706709B12BB44A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214C2FE4451B18FB34E5B9AEBD22956D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5889D414AB1B6B1F36896A1247AD390 /* AlertTypeTableViewCell.nib in Sources */,
+				7FF99A43852196A15A4174BEE39CFFBC /* Assets.car in Sources */,
+				6CE17C3DD949FDF53DA54C9011D43489 /* bubble_left.png in Sources */,
+				7EA5DFB0379EBECCC1EE52E4DC1AF09A /* bubble_left@2x.png in Sources */,
+				00A8106303D7CA07153C274421C5CC9C /* bubble_left@3x.png in Sources */,
+				5D487FAAE4D6BD3A492B36CDE68DBFA1 /* bubble_right.png in Sources */,
+				0125075E26BDA6F772028D2A7E2905A5 /* bubble_right@2x.png in Sources */,
+				547641E137294BD7DB7C27BF5F67DAF0 /* bubble_right@3x.png in Sources */,
+				6B468FC31D2AD4F2619C1E43C6547D49 /* button_background.png in Sources */,
+				27FC8BE3D319D64B3E912BA60D2BA71C /* button_background@2x.png in Sources */,
+				AC468BC276022A3DC005F5E99D717BB4 /* button_background@3x.png in Sources */,
+				2E150260A433037F3F16BC1F9BB2609B /* button_compass.png in Sources */,
+				0A3C588772B6A49E81C03D2B423369A5 /* button_compass@2x.png in Sources */,
+				3689FB17652B55379A1CA424F282719C /* button_compass_night.png in Sources */,
+				78066F69D6F6455ABE5F68A8CC086448 /* button_compass_night@2x.png in Sources */,
+				30AE94713090497800D8C73FA68EC9B8 /* button_my_location.png in Sources */,
+				76815BFB9CB364624895A2937F3A7E88 /* button_my_location@2x.png in Sources */,
+				FE538DF124064CEEBB43F2AF63D339CF /* CodeResources in Sources */,
+				A64A75C13CD850938F519216B8D5180A /* CustomDetailViewCell.nib in Sources */,
+				D85BFABF04EFF7E2BE8D40A7738767BC /* CustomSetSortView.nib in Sources */,
+				A255F4E8E679EA31934B80CCAA82869B /* CustomSosNumberCell.nib in Sources */,
+				1D7FE5C5B51047270A4EAADF682D6A0F /* dav_one_way_16_256.png in Sources */,
+				76D767EDF89B836CD4437B3C897326BB /* default_marker.png in Sources */,
+				5BFBF9F384CEB769D3BA0390D3AE10F8 /* default_marker@2x.png in Sources */,
+				93E34281DBB0DE2177816DFEEF3E6E9A /* default_marker@3x.png in Sources */,
+				573AC0EEB94E3E0B7FDAF54FCFD8895A /* DroidSansMerged-Regular.ttf in Sources */,
+				BE5A4A799589562329F87B7817A897A8 /* GMSCore.strings in Sources */,
+				C361003C64B9A1602C9F5C547AB48156 /* GMSCore.strings in Sources */,
+				008B3F3E2F0F77434F2513C85F49A842 /* GMSCore.strings in Sources */,
+				2FB469D48DBF74368CF3D5AE7C4C43BE /* GMSCore.strings in Sources */,
+				9E2747CE9F13216A864D98834B8C844A /* GMSCore.strings in Sources */,
+				677D59F985F0E6D3F52AB849C18620D4 /* GMSCore.strings in Sources */,
+				27548B895ED9243E46EFC3A9BD8566D4 /* GMSCore.strings in Sources */,
+				9C6F79A4D92095DA9714D48E39EBF706 /* GMSCore.strings in Sources */,
+				5DDA6F53F4D36842F3C23F45E1FEAF1D /* GMSCore.strings in Sources */,
+				366F07DA18CB58013CA995A601A752C5 /* GMSCore.strings in Sources */,
+				DEFDDD84989C0EF7A5AA7E0887DBF691 /* GMSCore.strings in Sources */,
+				CEEEA0C493C1E104791B4FC3269F3661 /* GMSCore.strings in Sources */,
+				D32A22DC6947C5678D00EF2FDE292C04 /* GMSCore.strings in Sources */,
+				B2151A25A9B58B92A89CE5C841F60984 /* GMSCore.strings in Sources */,
+				651C436379903441263F94A0B734D868 /* GMSCore.strings in Sources */,
+				BF57C3C872620BB1F5BC7AE13F2D2ABC /* GMSCore.strings in Sources */,
+				F41D10BA60BBBE93ACDA522D9B8F11A4 /* GMSCore.strings in Sources */,
+				0FFF07BC8F2090E1C2FB404922198EFF /* GMSCore.strings in Sources */,
+				1FEBB0CF317D686DF8F275202C0CE3E1 /* GMSCore.strings in Sources */,
+				6B1C1AFBA650A8F6074140FA6BBD96D9 /* GMSCore.strings in Sources */,
+				20113CE74149C458071B96F246E80556 /* GMSCore.strings in Sources */,
+				0035FDDF17BCE1652FFD5DD3A9D58EDB /* GMSCore.strings in Sources */,
+				1C9CF2F1DCF3C87D8E0C997CD622F3D5 /* GMSCore.strings in Sources */,
+				E300E29057227CCA2A3CDFB49D8122C4 /* GMSCore.strings in Sources */,
+				F351CE1C9A05E6BE7720B7396B95C45A /* GMSCore.strings in Sources */,
+				558DC43177573061C5A657A0B309BF28 /* GMSCore.strings in Sources */,
+				5F25CDAAACB135563B54435472DE65F2 /* GMSCore.strings in Sources */,
+				7918AE0D80EA55EF2409239C797D8DD6 /* GMSCore.strings in Sources */,
+				07E9708E91C73559B7550E826B93C2C2 /* GMSCore.strings in Sources */,
+				3A41E7FD7A0F0BFA923A0907773B4BB7 /* GMSCore.strings in Sources */,
+				25EC39848911621DB69A6297ABD9DE24 /* GMSCore.strings in Sources */,
+				1ACB3ADCB049AC5137ED279C175028C2 /* GMSCore.strings in Sources */,
+				6416FD5CF6D80146E463A5A75ACAA29A /* GMSCore.strings in Sources */,
+				ADCA50A7C5BD7FC478DDDE0E395AB5D6 /* GMSCore.strings in Sources */,
+				887C88B282D13352DDD992E89E1B43C5 /* GMSCore.strings in Sources */,
+				408172270859EEA74DAA4E6DDA980E56 /* GMSCore.strings in Sources */,
+				CB035AF6D3BD3189EA78E7220E371B2E /* GMSCore.strings in Sources */,
+				B3C3DC04CB1BA45B01D7A0A0AAB6761A /* GMSCore.strings in Sources */,
+				16B0D4DA4C9F7F5CC59EC81B6F74ABE0 /* GMSCore.strings in Sources */,
+				217F4C823A9E1A5DBF91907539C566F2 /* GMSCore.strings in Sources */,
+				253947D17E142BADAF067D0CD6496B93 /* GMSCore.strings in Sources */,
+				445384F5E79A4C582C0E49B1E2A70C76 /* GMSCore.strings in Sources */,
+				56F01D05D2A53B2A59A5863C13196625 /* GMSCore.strings in Sources */,
+				7EFDD85B3A9BFEE28EA54533FC97FE2B /* GMSCore.strings in Sources */,
+				1C492479B9542D1E983F957FFA5DB32A /* GMSCore.strings in Sources */,
+				9EE722839B5B133696AB1D13D2E43543 /* GMSCore.strings in Sources */,
+				9EAF7DA9C2F8F54B549149D7DE4D79D0 /* GMSCore.strings in Sources */,
+				9EAB3332FFE51655D46CD2E839FB7DFB /* GMSCore.strings in Sources */,
+				295B83488B76F51A7DC32127EBCE345A /* GMSCore.strings in Sources */,
+				93D6D156D7317B0B8366FC6895770D83 /* GMSNavNightModeSprites-0-1x.png in Sources */,
+				5A07BF33517A9324E1E3C9A7D3E47F5F /* GMSNavNightModeSprites-0-2x.png in Sources */,
+				B60BC8086F1AA16D1A0C5D22ACF74DAB /* GMSNavNightModeSprites-0-3x.png in Sources */,
+				B6C22478AB7B57674622D646938BA6B3 /* GMSNavSprites-0-1x.png in Sources */,
+				1B6632DD645D65A9C2FE98DE5593DC0A /* GMSNavSprites-0-2x.png in Sources */,
+				AA9EB3C8746929C9120EA31E82C3C585 /* GMSNavSprites-0-3x.png in Sources */,
+				8F63915B4A22AC87BC5A08EAC05D9459 /* GMSSprites-0-1x.png in Sources */,
+				5882431FE1CF88B3B3E64DF8CE9E34CB /* GMSSprites-0-2x.png in Sources */,
+				565CC945966A542D1A455D3883E9C8AD /* GMSSprites-0-3x.png in Sources */,
+				5D5DE793ADEC2D783F689C43EBE2FD80 /* ic_closed_place_waypoint_alert_32pt.png in Sources */,
+				E5C1544639D39347A05BD06DE0B7BA2E /* ic_closed_place_waypoint_alert_32pt@2x.png in Sources */,
+				6507059053FC33FE0B66EA01CC01224E /* ic_closed_place_waypoint_alert_32pt@3x.png in Sources */,
+				21051ACCEA4899610DA1BD0F749AE09E /* ic_closed_place_waypoint_alert_night_32pt.png in Sources */,
+				532F176B2B67A7C6DD1A85ACD0BBAED6 /* ic_closed_place_waypoint_alert_night_32pt@2x.png in Sources */,
+				88568E2ABFC62B29B909020C1949A373 /* ic_closed_place_waypoint_alert_night_32pt@3x.png in Sources */,
+				C0EE91A2EA094792F1C5B4C57AC113AF /* ic_compass_needle.png in Sources */,
+				ADA54A4FFD37CD7A84B75527E877AF45 /* ic_compass_needle@2x.png in Sources */,
+				20C9F1233366342D3CD9F69C01F2E9ED /* ic_compass_needle_32pt.png in Sources */,
+				AD6206A4436AD29750511AFEFE780143 /* ic_compass_needle_32pt@2x.png in Sources */,
+				0EA31236B23C6AC5FC53532C4966B65D /* ic_compass_needle_32pt@3x.png in Sources */,
+				B8BAB09AAF22A4D6B6297C147BAE2327 /* ic_compass_needle_large.png in Sources */,
+				FD3370CA471278CDE7E3489924DE0044 /* ic_compass_needle_large@2x.png in Sources */,
+				FE305463DEEB3CF3B688A821F400378D /* ic_compass_needle_large@3x.png in Sources */,
+				EA12BD88952F7ECBEA3F60912E640720 /* ic_covid_border_waypoint_alert_32pt.png in Sources */,
+				E65702170A2A5477AC290F2A39C0B431 /* ic_covid_border_waypoint_alert_32pt@2x.png in Sources */,
+				C2B56599B19EB59F747016E07A197745 /* ic_covid_border_waypoint_alert_32pt@3x.png in Sources */,
+				B25350708675DBFE547AB3E42359F561 /* ic_covid_checkpoint_waypoint_alert_32pt.png in Sources */,
+				79B9A54005BC23FDB6B8455F44B6B0E1 /* ic_covid_checkpoint_waypoint_alert_32pt@2x.png in Sources */,
+				D4EADA41E3BB31592F57A1714D69DE7B /* ic_covid_checkpoint_waypoint_alert_32pt@3x.png in Sources */,
+				8731BA08F7EAD7D7CAEBF77CF4D262C7 /* ic_covid_checkpoint_waypoint_alert_night_32pt.png in Sources */,
+				C68156D167AB6805DC4CD49868289797 /* ic_covid_checkpoint_waypoint_alert_night_32pt@2x.png in Sources */,
+				75FCDB24BFFD593EB34CE1B404AA35C6 /* ic_covid_checkpoint_waypoint_alert_night_32pt@3x.png in Sources */,
+				D5B25A0A5BE190EE8D6CA749C4755DB1 /* ic_covid_medical_waypoint_alert_32pt.png in Sources */,
+				B28104768292FD536F320524A485A89F /* ic_covid_medical_waypoint_alert_32pt@2x.png in Sources */,
+				BBB97DF8572AF91367CE0376FF7EA3D5 /* ic_covid_medical_waypoint_alert_32pt@3x.png in Sources */,
+				0D744BDDD881EE24D73ECB79539D06E6 /* ic_covid_medical_waypoint_alert_night_32pt.png in Sources */,
+				B17DCA6008A13CD612AC30B84E4B43A0 /* ic_covid_medical_waypoint_alert_night_32pt@2x.png in Sources */,
+				5AEACF99F68064B7D2697F12855E8CD6 /* ic_covid_medical_waypoint_alert_night_32pt@3x.png in Sources */,
+				787F3DB134C7B62CE348D9BEAC4612D4 /* ic_error.png in Sources */,
+				91586F211422E328D6B7E86D2503D2C3 /* ic_error@2x.png in Sources */,
+				4BE35EFFE215A32526741759D3CFA7B6 /* ic_error@3x.png in Sources */,
+				B4AF2647B6C19D6A7CEBBDED229239B0 /* ic_location_off.png in Sources */,
+				8B2BE36E5ECF5021210AADF8360CCCC9 /* ic_location_off@2x.png in Sources */,
+				339D773666B0EB864F06EF8954ED0C61 /* ic_location_off@3x.png in Sources */,
+				24218F1AF1EEDAFA2B4A3575DA584A3E /* ic_qu_direction_mylocation.png in Sources */,
+				864BAEFCE429ED4A6939DBC1033AB067 /* ic_qu_direction_mylocation@2x.png in Sources */,
+				A2663421EA2C78B8C2BF65A74BFB1863 /* ic_qu_direction_mylocation@3x.png in Sources */,
+				E5F671F02EE6E6A6EBD3A034A27F019B /* Info.plist in Sources */,
+				74A15E381137411D49390D0847CE8C9A /* Info.plist in Sources */,
+				E5F671F02EE6E6A6EBD3A034A27F019B /* Info.plist in Sources */,
+				D1EA526F5C2CD301E8093D355809AE57 /* module.modulemap in Sources */,
+				0532DB4E867E06742CF2655895B89192 /* myView.nib in Sources */,
+				29A43E5CCF41CFAEAD4C542745BA3C6D /* oss_licenses_maps.txt.gz in Sources */,
+				7F794334AD72EE62CF376D142492B3EA /* polyline_colors_texture.png in Sources */,
+				94FC82281C728D8F2BE1044EF23B9D1E /* polyline_colors_texture_dim.png in Sources */,
+				B227C436836855480A18932559309134 /* PrefixHeader.pch in Sources */,
+				ED01CA085C6524824D739FC6B008433C /* road_1-1.png in Sources */,
+				6205CBC9385E6BADAB5F61FB032800CE /* road_128-32.png in Sources */,
+				0DA9D65A77993E51FF0EF2E677ACD2EE /* road_16-4.png in Sources */,
+				1B289C9235AF145335C3FE06BAB35806 /* road_2-1.png in Sources */,
+				3BD2943E18F57A808ADD8CB4E65A1A68 /* road_256-64.png in Sources */,
+				22D42B6A98631A806B5B648CDA324C2A /* road_32-8.png in Sources */,
+				09FC0470A00F271FBFC05852D69AE6F0 /* road_4-1.png in Sources */,
+				829F203B6BC401DA8637AA33ECFDB0AC /* road_64-16.png in Sources */,
+				0157E9059F17964E516F8F7DA4CFAA79 /* road_8-2.png in Sources */,
+				CBFAFAF371F32BFFC3480CC00800EDEF /* RoundImgTableViewCell.nib in Sources */,
+				E85095BCE27754458800B1B12888A075 /* Storage.mom in Sources */,
+				625817F4D9E3D5686C2EA1685CCA9B2E /* StorageWithTileProto.mom in Sources */,
+				E1A8C7814E8FDAB18A3D434FCC201CED /* StorageWithTileVersionID.mom in Sources */,
+				BF60A854B805D5CF0BDCBF7302FA1BD5 /* Tharlon-Regular.ttf in Sources */,
+				593AFE5832019FA2370E9B74EDFAB057 /* TraceLineTableViewCell.nib in Sources */,
+				ABCB9E39FA89C838266787C16F81EB19 /* UmeoxCommon in Sources */,
+				1AB3A39E9464FAA3CE09A7323BF22972 /* UmeoxCommon-dummy.m in Sources */,
+				B9FD51C73AB7D6B8FFC1860B4A554077 /* VersionInfo.plist in Sources */,
+				B45A442930F1790A947C608E9DCB0393 /* WCommonWebViewController.nib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB3876DF0E33900EB66570C5232F021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4ED3926756E025F198C3ABFF7B91E6 /* Pods-UmeoxCommon_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D45AD332E632DB16E0BF889F3545D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED4F43BA3066AA615E393EBC025AAA6 /* Pods-UmeoxCommon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B319C802C6ED892325BA9113B7A646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UmeoxCommon;
+			target = 79F5F9B4D662DD5BAB12C25B369CF9C7 /* UmeoxCommon */;
+			targetProxy = 0B77790FD112FB992539EA6CCFDC0735 /* PBXContainerItemProxy */;
+		};
+		CE53133F833F8221E11626F05B4ADBA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UmeoxCommon_Example";
+			target = 92694069EC47650882226C85F5F7BA0A /* Pods-UmeoxCommon_Example */;
+			targetProxy = 950987C306AD7BE0575866314D751F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8B62334CE19FB8397EF7DC8EC42A42 /* GMSCore.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E544A78DA39E97BE813B382FC5D2DA9B /* GMSCore.strings */,
+				825482819081FA2D04CB52F6A7089F4D /* GMSCore.strings */,
+				AD50D0E8E9DD752B1C4C4B99CDA64A0B /* GMSCore.strings */,
+				99F2E9945B65D45345334E7DA941EF75 /* GMSCore.strings */,
+				70467169DF5094649A88E566E0674FC7 /* GMSCore.strings */,
+				F6D2ED6817D2CE2062A8986EFFFCA128 /* GMSCore.strings */,
+				CBD2EBF6E37C8E8FFEF7B6A4BD449A0E /* GMSCore.strings */,
+				D924C954D2EFEE3487D52DEAD3BC0191 /* GMSCore.strings */,
+				A614FB8F3D709D9BFDEB17ACE9E33EF0 /* GMSCore.strings */,
+				7E38930033FE993D8AC0E20BCA02AD7B /* GMSCore.strings */,
+				8FB488D68C11AF09EB04AA23EE58DEA8 /* GMSCore.strings */,
+				F2DE8E3D7E5846E25845A9B6B9E04ACB /* GMSCore.strings */,
+				84CA178080CC03F8D7A83725328028BE /* GMSCore.strings */,
+				6A0B6E83CE63C8C08CEA67969FB744B0 /* GMSCore.strings */,
+				40DFD4130A4608747287ECAD0AEEF30E /* GMSCore.strings */,
+				B78D9BDF45CAC6875D42710B8F51C4F1 /* GMSCore.strings */,
+				003F9FC5D5911B6CBC534576D0463169 /* GMSCore.strings */,
+				BE6FACE9AE4C739FB3F160767806D3B9 /* GMSCore.strings */,
+				A4862438961778D6F06DA4B3991DED07 /* GMSCore.strings */,
+				37085C471CE1F4F7B8052A22AB2BBD9B /* GMSCore.strings */,
+				D0BEDA646F0067EF7630E8ACFB5261E2 /* GMSCore.strings */,
+				7864A99CAE4D0C85D98BD0750C4E1E8C /* GMSCore.strings */,
+				503F6A1277FA6C9D39D5B99FCAA02577 /* GMSCore.strings */,
+				91BEEC73F0B32CF9D1919A1A30D216B0 /* GMSCore.strings */,
+				69E7D4A0FC097996BD4A7692F9241545 /* GMSCore.strings */,
+				F65DAC48969314316E1264D225C00E3C /* GMSCore.strings */,
+				1ADD09552548AA6D0203803018395969 /* GMSCore.strings */,
+				FA46F925C6D060D2C5B2222272430530 /* GMSCore.strings */,
+				FBBB2A78F0CD5B69930CFD3522027FDB /* GMSCore.strings */,
+				627E2792EAC5778138131D57A0040D66 /* GMSCore.strings */,
+				14A881B2F66CFE6725D894F9E47244BD /* GMSCore.strings */,
+				FCB6C0CF041874FACF6F9EA1F473B36C /* GMSCore.strings */,
+				955006AC74D13E068E2B2B046BCC6CA4 /* GMSCore.strings */,
+				52CB32F72C031C3910094680E534A1BB /* GMSCore.strings */,
+				F7E78B2B8DAF3539866FB2773042CC23 /* GMSCore.strings */,
+				5ED5DE4317AF71C197BC1D1B8C23379C /* GMSCore.strings */,
+				4129FD20E8E1B0CD405820D8D2E6FCDB /* GMSCore.strings */,
+				6ED3F6BD6FB106FC80F76AF4C85D13D6 /* GMSCore.strings */,
+				07A4B2DF6AD7ADF49FB12FECA4BE0BFC /* GMSCore.strings */,
+				01BB4BEB6F7ABEE6B69478EE9889C653 /* GMSCore.strings */,
+				057486B7A8897E092BFED1D877DAAF8F /* GMSCore.strings */,
+				50FC08C0C3341824C3CEF7FA209D70EE /* GMSCore.strings */,
+				27CE122DA6908D4D16A4D2594A3E5AA1 /* GMSCore.strings */,
+				07015C1C173E2BF0079640E6AA675779 /* GMSCore.strings */,
+				CFDB2E1A5977662929A4EEABAF8AD0C9 /* GMSCore.strings */,
+				E44E9362077801970E13B63E6A6CA276 /* GMSCore.strings */,
+				6320B7C1888B193393253D9F31519580 /* GMSCore.strings */,
+				395944F46DB1677650873F0375577AF2 /* GMSCore.strings */,
+				0C96AD27F2B807F114F14835CD9D635B /* GMSCore.strings */,
+			);
+			name = GMSCore.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CD57B67B703D4004F701BB638255236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8512450B7C0CADA89ECBA1DC43260B /* Pods-UmeoxCommon_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UmeoxCommon_Example/Pods-UmeoxCommon_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UmeoxCommon_Example/Pods-UmeoxCommon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F746CCD1A5BEDB55965EED17FA1206A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B33A8C98590FD8E90A6E007D014B35F /* Pods-UmeoxCommon_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UmeoxCommon_Example/Pods-UmeoxCommon_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UmeoxCommon_Example/Pods-UmeoxCommon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		276D9A58D915895A9C7ACF74EFD7751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3A1C5CC6F4F7A1AB5F84A4D3C76849 /* UmeoxCommon.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UmeoxCommon/UmeoxCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UmeoxCommon/UmeoxCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UmeoxCommon/UmeoxCommon.modulemap";
+				PRODUCT_MODULE_NAME = UmeoxCommon;
+				PRODUCT_NAME = UmeoxCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		353CEF89FAD7732D5F0A0DA0BD2BE531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A2AA57D4EF5FD8A62329673CFE477B /* Pods-UmeoxCommon_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UmeoxCommon_Tests/Pods-UmeoxCommon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UmeoxCommon_Tests/Pods-UmeoxCommon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5045823FC3BC13B4D6DA38B1DC35C4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971795BC7017A211B202C67E39461355 /* Pods-UmeoxCommon_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UmeoxCommon_Tests/Pods-UmeoxCommon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UmeoxCommon_Tests/Pods-UmeoxCommon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B073F5D81172FB02D18FB0AD54ADD910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277BE8713CFBDCB5AF7D380EFDA39DA1 /* UmeoxCommon.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UmeoxCommon/UmeoxCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UmeoxCommon/UmeoxCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UmeoxCommon/UmeoxCommon.modulemap";
+				PRODUCT_MODULE_NAME = UmeoxCommon;
+				PRODUCT_NAME = UmeoxCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623F589CDE89C38A1F73C5F2E9B22890 /* Build configuration list for PBXNativeTarget "Pods-UmeoxCommon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353CEF89FAD7732D5F0A0DA0BD2BE531 /* Debug */,
+				5045823FC3BC13B4D6DA38B1DC35C4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91335EF9750DF61557554FEE3D991F7F /* Build configuration list for PBXNativeTarget "UmeoxCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276D9A58D915895A9C7ACF74EFD7751D /* Debug */,
+				B073F5D81172FB02D18FB0AD54ADD910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A672D3E0C944EEDDA109ED84628595A1 /* Build configuration list for PBXNativeTarget "Pods-UmeoxCommon_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F746CCD1A5BEDB55965EED17FA1206A /* Debug */,
+				0CD57B67B703D4004F701BB638255236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
