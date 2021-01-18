@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UmeoxCommon_Example' do
+  pod 'UmeoxCommon', :path => '../'
+
+  target 'UmeoxCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
